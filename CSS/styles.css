@@ -20,11 +20,12 @@
 .list{
     list-style-type: none;
     font-style: normal;
-    
+    text-decoration: none;
 }
 .link {
     list-style-type: none;
     font-style: normal;
+    text-decoration: none;
 }
 
 .body{
