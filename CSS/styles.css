@@ -1,9 +1,4 @@
-/* coljrs */
-/* main #212121 */
-/* second #757575 */
-/* back one #F5F5F5 */
-/* back 2 #F5F4FA */
-/* akcent #2196F3 */
+
 :root {
     --primary-text-color: #212121;
     --secondary-text-color: #757575 ;
@@ -235,7 +230,8 @@ color: var(--hero-text);
 /* footer */
 .footer{
     
-    background-color:var(--hero-becgr-color)}
+    background-color:var(--hero-becgr-color)
+}
     
 
 
@@ -253,17 +249,19 @@ color: var(--hero-text);
     letter-spacing: 0.03em;
     
 }
-.logo-foot-part{
+.logo-footpart{
             text-decoration: none;
-            color: var(--hero-text);
+            
+            color:var(--hero-text);
             font-family: 'Raleway', sans-serif;
-            font-style: none;
+            font-style: normal;
             font-weight: 700;
             font-size: 26px;
             line-height: 1.19;
             letter-spacing: 0.03em;
-    
-        
+  
+
+  
        
 }
 .foot-links{
@@ -297,8 +295,15 @@ color: var(--hero-text);
 {
     color:var(--accent-color) 
 }
+.adress-link-map{
+    text-decoration: none;
+    color: var(--hero-text);
+}
+.adress-link {
+    text-decoration: none;
+    color: var(--foot-links-color);
 
-
+}
 
 
 /* second list */
@@ -322,7 +327,7 @@ color: var(--hero-text);
     background-color: var(--accent-color);
 }
 .second-title{
-    color: #212121;
+    color: var(--primary-text-color);
 
     font-weight: 700;
     font-size: 18px;
