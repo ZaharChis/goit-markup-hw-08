@@ -251,7 +251,7 @@ color: var(--hero-text);
 }
 .logo-footpart{
             text-decoration: none;
-            
+
             color:var(--hero-text);
             font-family: 'Raleway', sans-serif;
             font-style: normal;
@@ -298,10 +298,21 @@ color: var(--hero-text);
 .adress-link-map{
     text-decoration: none;
     color: var(--hero-text);
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1,71;
+    letter-spacing: 0.03em;
 }
 .adress-link {
     text-decoration: none;
     color: var(--foot-links-color);
+
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1,71;
+    letter-spacing: 0.03em;
 
 }
 
