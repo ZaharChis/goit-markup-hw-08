@@ -249,7 +249,7 @@ color: var(--hero-text);
     letter-spacing: 0.03em;
     
 }
-.logo-footpart{
+.logo-foot-part{
             text-decoration: none;
 
             color:var(--hero-text);
@@ -333,7 +333,7 @@ color: var(--hero-text);
 }
 
 .second-list-button:hover, 
-.second-list-button:hover{
+.second-list-button:focus{
     color: var(--hero-text);
     background-color: var(--accent-color);
 }
