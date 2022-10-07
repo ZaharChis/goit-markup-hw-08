@@ -16,6 +16,8 @@
 
 .list {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
     
 }
 
@@ -59,7 +61,7 @@ img {
     width: 100%;
     max-width: 1170px;
     margin: 0 auto;
-    padding: 0.15px;
+    padding: 0 15px;
     /* background-color: aquamarine; */
     /* background-color: aqua;
     padding-bottom: 25px;
@@ -300,8 +302,15 @@ color: var(--hero-text);
 
 
 .footer{
+    background-color:var(--hero-becgr-color);
+    padding: 60 0;
+}
+
+.footer-container{
     
-    background-color:var(--hero-becgr-color)
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
 }
     
 .logo-foot{
@@ -316,7 +325,7 @@ color: var(--hero-text);
     letter-spacing: 0.03em;
 
     display: inline-block;
-    margin-top: 60px;
+    
     margin-bottom: 20px;
     
    
@@ -335,8 +344,7 @@ color: var(--hero-text);
             letter-spacing: 0.03em;
 
             display: inline-block;
-            margin-top: 60px;
-            margin-bottom: 20px;
+           
             
   }
 
@@ -349,7 +357,7 @@ color: var(--hero-text);
             letter-spacing: 0.03em;
 
             display: inline-block;
-            padding-bottom: 9px;
+            
   }
     
 
@@ -367,7 +375,7 @@ color: var(--hero-text);
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-
+    margin-top: 9px;
     
 }
 
@@ -391,8 +399,7 @@ color: var(--hero-text);
     line-height: 1.71;
     letter-spacing: 0.03em;
 
-    display: inline-block;
-    padding-bottom: 1px;
+    
 }
 
 .adress-link {
@@ -404,10 +411,18 @@ color: var(--hero-text);
     line-height: 1.71;
     letter-spacing: 0.03em;
 
-    display: inline-block;
-    padding-bottom: 1px;
-    margin-bottom: 30px;
+    
+
 }
+
+
+
+
+
+
+
+
+
 
 
 /* second list */
