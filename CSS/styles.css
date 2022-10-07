@@ -135,8 +135,8 @@ img {
         letter-spacing: 0.02em;
        }
 
-.site-nav-link :hover,
-.site-nav-link :focus
+.site-nav-link:hover,
+.site-nav-link:focus
 {
     color:var(--accent-color) 
     }
@@ -153,8 +153,8 @@ img {
         letter-spacing: 0.02em;
 }
 
-.auth-nav-link :hover,
-.auth-nav-link :focus
+.auth-nav-link:hover,
+.auth-nav-link:focus
 {
     color: var(--accent-color)
    }
@@ -189,16 +189,24 @@ color: var(--hero-text);
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.06em;
+
     
     border-radius: 4px;
     margin-bottom: 200px;
-    padding: 10px,32px;
+    padding-top: 10px;
+    padding-right: 32px;
+    padding-bottom: 10px;
+    padding-left: 32px;
     cursor: pointer;
 }
 
 .hero-button:hover,
 .hero-button:focus{
-    color: var(--primary-text-color)
+    color: var(--primary-text-color);
+
+   
+
+
     }
 
 .hero-button:active{
@@ -414,8 +422,10 @@ color: var(--hero-text);
     letter-spacing: 0.03em;
 
     border-radius: 4px;
-    
-    padding: 6px,25px;
+    padding-top: 6px;
+    padding-right: 25px;
+    padding-bottom: 6px;
+    padding-left: 25px;
     cursor: pointer;
 }
 
@@ -433,6 +443,9 @@ color: var(--hero-text);
     line-height: 2;
     letter-spacing: 0.06em; 
 
+    margin-top: 20px;
+    margin-bottom: 4px;
+
     
 }
 
@@ -441,4 +454,8 @@ color: var(--hero-text);
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.03em;
+
+    margin-top: 0;
+    margin-bottom: 50px;
+
 }
