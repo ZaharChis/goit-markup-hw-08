@@ -9,28 +9,83 @@
     --hero-becgr-color:#2F303A;
     --foot-links-color:rgba(255, 255, 255, 0.6)
 }
+
+
 /* main */
 
 
 .list {
     list-style-type: none;
-    font-style: normal;
-    text-decoration: #212121;
+    
 }
 
 .link {
     list-style-type: none;
-    font-style: normal;
-    text-decoration: #212121;
-    font-style: normal;
-    letter-spacing: 0.02em;
+   
+    text-decoration: none
+  
 }
 
 .body{
    
     font-family: Roboto, sans-serif;
     color: var(--primary-text-color);
-    background-color:  var(--backgr-color);
+    
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+link,
+a,
+ {
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+.container {
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0.15px;
+    /* background-color: aquamarine; */
+    /* background-color: aqua;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    padding-left: 215px;
+    padding-right: 215px;
+    width: 1600px;
+    height: 80px;
+    margin: 0 auto; */
+
+}
+
+.section-one{
+    padding-top: 94px;
+    background-color: 
+}
+
+.section-two{
+    padding-top: 94px;
+    padding-bottom: 94px;
+    background-color: 
+}
+
+.section-thre{
+    padding-bottom: 94px;
+    background-color: 
 }
 
 
@@ -41,7 +96,7 @@
         text-decoration: none;
         color:var(--accent-color);
         font-family: 'Raleway',sans-serif;
-        font-style: normal;
+     
         font-weight: 700;
         font-size: 26px;
         line-height: 1.19;
@@ -52,7 +107,7 @@
     text-decoration: none;
     color:var(--primary-text-color);
     font-family: 'Raleway', sans-serif;
-    font-style: normal;
+    
     font-weight: 700;
     font-Size:26px;
     Line-height: 1.19;
@@ -64,11 +119,11 @@
 
 
 .adress{
-    font-style: normal;
+   
     letter-spacing: 0.02em;
 }
 
-   .site-nav-link a{ 
+   .site-nav-link { 
         text-decoration: none;
        
         color:var(--primary-text-color);
@@ -80,26 +135,26 @@
         letter-spacing: 0.02em;
        }
 
-.site-nav-link a:hover,
-.site-nav-link a:focus
+.site-nav-link :hover,
+.site-nav-link :focus
 {
     color:var(--accent-color) 
     }
 
-.auth-nav-link a {
+.auth-nav-link  {
    
     color:var(--secondary-text-color) ;
      text-decoration: none;
-    font-family: 'Roboto';
-        font-style: normal;
+    
+        
         font-weight: 500;
         font-size: 14px;
         line-height: 1.14;
         letter-spacing: 0.02em;
 }
 
-.auth-nav-link a:hover,
-.auth-nav-link a:focus
+.auth-nav-link :hover,
+.auth-nav-link :focus
 {
     color: var(--accent-color)
    }
@@ -112,13 +167,17 @@
 color: var(--hero-text);
 
 
-    font-style: normal;
+    
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
+
+    display: inline-block;
+    margin-top: 200px;
+    margin-bottom: 30px;
 } 
 
 .hero-button{
@@ -126,11 +185,15 @@ color: var(--hero-text);
     color: var(--hero-text);
     background-color: var(--accent-color);
 
-    font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.06em;
+    
+    border-radius: 4px;
+    margin-bottom: 200px;
+    padding: 10px,32px;
+    cursor: pointer;
 }
 
 .hero-button:hover,
@@ -165,17 +228,21 @@ color: var(--hero-text);
 
 .title-one{
     
-        font-style: normal;
+        
         font-weight: 700;
         font-size: 14px;
         line-height: 1.14;
         letter-spacing: 0.03em;
+        text-transform: uppercase;
+
+        margin-bottom: 10px;
+        
         }
 
 .text{
     color: var(--secondary-text-color) ;
    
-        font-style: normal;
+        
         font-size: 14px;
         line-height: 1.71;
         letter-spacing: 0.03em;
@@ -186,29 +253,38 @@ color: var(--hero-text);
 
 
 .title{
-    font-style: normal;
+   
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
     letter-spacing: 0.03em;
+
+    margin-bottom: 50px;
     }
 
 .title-two{
 
-    font-style: normal;
+    
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
     letter-spacing: 0.03em;
+
+    margin-top: 30px;
+    margin-bottom: 10px;
+
+    
     }
 
 .text-two{
-    
-        font-style: normal;
+    color: var(--secondary-text-color);
+        
         
         font-size: 16px;
         line-height: 1.18;
         letter-spacing: 0.03em;
+
+        margin-top: 0px;
         }
 
 
@@ -225,11 +301,17 @@ color: var(--hero-text);
     color: var(--accent-color);
 
     font-family: 'Raleway', sans-serif;
-    font-style: normal;
+   
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
+
+    display: inline-block;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    
+   
     
 }
 
@@ -243,16 +325,25 @@ color: var(--hero-text);
             font-size: 26px;
             line-height: 1.19;
             letter-spacing: 0.03em;
+
+            display: inline-block;
+            margin-top: 60px;
+            margin-bottom: 20px;
+            
   }
 
 .foot-links{
-            font-style: normal;
+            
             color: var(--hero-text);
             font-style: normal;
             font-size: 14px;
             line-height: 1.71;
             letter-spacing: 0.03em;
-    }
+
+            display: inline-block;
+            padding-bottom: 9px;
+  }
+    
 
 .foot-links:hover,
 .foot-links:focus
@@ -262,18 +353,24 @@ color: var(--hero-text);
 
 .foot-links-two{
     
-    font-style: normal;
+    
     color: var(--foot-links-color);
 
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
+
+    
 }
 
 .foot-links-two:hover,
 .foot-links-two:focus
 {
     color:var(--accent-color) 
+}
+
+.adress{
+    font-style: normal;
 }
 
 .adress-link-map{
@@ -283,8 +380,11 @@ color: var(--hero-text);
     font-family: 'Roboto';
     font-style: normal;
     font-size: 14px;
-    line-height: 1,71;
+    line-height: 1.71;
     letter-spacing: 0.03em;
+
+    display: inline-block;
+    padding-bottom: 1px;
 }
 
 .adress-link {
@@ -293,8 +393,12 @@ color: var(--hero-text);
 
     font-style: normal;
     font-size: 14px;
-    line-height: 1,71;
+    line-height: 1.71;
     letter-spacing: 0.03em;
+
+    display: inline-block;
+    padding-bottom: 1px;
+    margin-bottom: 30px;
 }
 
 
@@ -308,6 +412,11 @@ color: var(--hero-text);
     line-height: 1.63;
     text-align: center;
     letter-spacing: 0.03em;
+
+    border-radius: 4px;
+    
+    padding: 6px,25px;
+    cursor: pointer;
 }
 
 .second-list-button:hover, 
