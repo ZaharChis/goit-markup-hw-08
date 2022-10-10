@@ -18,15 +18,36 @@
     list-style-type: none;
     margin: 0;
     padding: 0;
-    
-}
+
+    display: flex;}
 
 .link {
-    list-style-type: none;
-   
-    text-decoration: none
-  
+        list-style-type: none;
+       
+        text-decoration: none
+      
+    }
+    
+
+.site-nav-item  {
+    
+    margin-right: 50px;
 }
+
+.auth-nav-item {
+    
+    margin-right: 50px;
+    width: 135px;
+}
+.site-nav-item:last-child{
+    margin-right: 344px;
+}
+
+.auth-nav-item:last-child{
+    margin-right: 0;
+}
+
+
 
 .body{
    
@@ -59,7 +80,7 @@ img {
 
 .container {
     width: 100%;
-    max-width: 1170px;
+    max-width: 1230px;
     margin: 0 auto;
     padding: 0 15px;
     /* background-color: aquamarine; */
@@ -72,6 +93,12 @@ img {
     height: 80px;
     margin: 0 auto; */
 
+}
+
+.main-nav{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
 }
 
 .section-one{
@@ -106,6 +133,9 @@ img {
         }
 
 .logo-part{
+
+margin-right: 93px;
+
     text-decoration: none;
     color:var(--primary-text-color);
     font-family: 'Raleway', sans-serif;
@@ -125,11 +155,14 @@ img {
     letter-spacing: 0.02em;
 }
 
-.site-nav{
-    display: flex;
-}
+
 
    .site-nav-link { 
+display: block;
+padding-top: 32px;
+padding-bottom: 32px;
+
+
         text-decoration: none;
        
         color:var(--primary-text-color);
@@ -148,6 +181,9 @@ img {
     }
 
 .auth-nav-link  {
+    display: block;
+padding-top: 32px;
+padding-bottom: 32px;
    
     color:var(--secondary-text-color) ;
      text-decoration: none;
@@ -173,7 +209,7 @@ img {
 color: var(--hero-text);
 
 
-    
+    width: 696px;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -185,6 +221,11 @@ color: var(--hero-text);
     margin-top: 200px;
     margin-bottom: 30px;
 } 
+.container-hero-title{
+    display: flex;
+    
+    justify-content: center;
+}
 
 .hero-button{
     
@@ -196,7 +237,7 @@ color: var(--hero-text);
     line-height: 1.87;
     letter-spacing: 0.06em;
 
-    
+  
     border-radius: 4px;
     margin-bottom: 200px;
     padding-top: 10px;
@@ -204,6 +245,12 @@ color: var(--hero-text);
     padding-bottom: 10px;
     padding-left: 32px;
     cursor: pointer;
+}
+
+.container-hero-button{
+    display: flex;
+    
+    justify-content: center;
 }
 
 .hero-button:hover,
@@ -240,6 +287,14 @@ color: var(--hero-text);
     margin: -1px;
 }
 
+.first-page-img{
+    padding-right: 30px;
+}
+
+.first-page-img:nth-child(3n) {
+    padding-right: 0px;
+} 
+
 .title-one{
     
         
@@ -266,6 +321,20 @@ color: var(--hero-text);
 /* two */
 
 
+.our-work-container{
+    display: flex;
+    
+    justify-content: center;
+}
+
+.first-page-team{
+    padding-right: 30px;
+}
+
+.first-page-team:nth-child(4n) {
+    padding-right: 0px;
+} 
+
 .title{
    
     font-weight: 700;
@@ -275,6 +344,13 @@ color: var(--hero-text);
 
     margin-bottom: 50px;
     }
+
+
+.our-team-container {
+    display: flex;
+    
+    justify-content: center;
+}
 
 .title-two{
 
@@ -350,6 +426,12 @@ color: var(--hero-text);
             display: inline-block;
            
             
+  }
+
+  .list-footer{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
   }
 
 .foot-links{
@@ -432,6 +514,18 @@ color: var(--hero-text);
 /* second list */
 
 
+.second-page-button{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    margin-bottom: 34px;
+    margin-right: 8px;
+}
+
+.second-page-button:last-child{
+    margin-right: 0px;
+}
+
 .second-list-button{
     font-family: inherit; 
     font-weight: 500;
@@ -446,13 +540,44 @@ color: var(--hero-text);
     padding-bottom: 6px;
     padding-left: 25px;
     cursor: pointer;
+    margin-right: 8px;
 }
+
+
 
 .second-list-button:hover, 
 .second-list-button:focus{
     color: var(--hero-text);
     background-color: var(--accent-color);
 }
+
+
+.second-list-info{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center; 
+    
+    
+}
+
+.second-list-info-li{
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.second-list-info-li:nth-child(3n) {
+    
+    margin-right: 0px;
+
+}
+
+.second-list-info-li:nth-last-child(-n+3) {
+    
+    margin-bottom: 0px;
+
+}
+
 
 .second-title{
     color: var(--primary-text-color);
