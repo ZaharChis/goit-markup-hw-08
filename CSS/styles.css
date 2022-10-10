@@ -125,6 +125,10 @@ img {
     letter-spacing: 0.02em;
 }
 
+.site-nav{
+    display: flex;
+}
+
    .site-nav-link { 
         text-decoration: none;
        
