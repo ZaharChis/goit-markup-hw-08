@@ -14,12 +14,60 @@
 /* main */
 
 
-.list {
+.nav-list {
     list-style-type: none;
     margin: 0;
     padding: 0;
 
     display: flex;}
+
+.auth-list {
+            list-style-type: none;
+            
+            margin-left: auto;
+            padding: 0;
+    
+            display: flex;
+        }
+.list-section-one {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+
+        display: flex;
+    }
+
+.list-section-two {
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+}
+
+
+.list-section-thre {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+}
+
+.list-two-main-info{
+    text-align: center;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+        display: flex;
+        
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 30px;
+}
 
 .link {
         list-style-type: none;
@@ -40,7 +88,11 @@
     width: 135px;
 }
 .site-nav-item:last-child{
-    margin-right: 344px;
+    margin-right: 0px;
+}
+
+.site-nav-item:first-child {
+    margin-left: 93px;
 }
 
 .auth-nav-item:last-child{
@@ -64,10 +116,11 @@ h6,
 p,
 ul,
 link,
-a,
+a
  {
     padding: 0;
     margin: 0;
+    text-decoration: none;
 }
 
 img {
@@ -79,10 +132,11 @@ img {
 
 
 .container {
-    width: 100%;
-    max-width: 1230px;
+    width: 1200px;
+   
     margin: 0 auto;
     padding: 0 15px;
+    
     /* background-color: aquamarine; */
     /* background-color: aqua;
     padding-bottom: 25px;
@@ -98,23 +152,19 @@ img {
 .main-nav{
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: flex-end;}
+
+
+.navigation {
+    display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        margin-right: 344px;
 }
 
-.section-one{
-    padding-top: 94px;
-    background-color: 
-}
-
-.section-two{
-    padding-top: 94px;
-    padding-bottom: 94px;
-    background-color: 
-}
-
-.section-thre{
-    padding-bottom: 94px;
-    background-color: 
+.section{
+    padding: 94px 0;
+    
 }
 
 
@@ -134,7 +184,7 @@ img {
 
 .logo-part{
 
-margin-right: 93px;
+
 
     text-decoration: none;
     color:var(--primary-text-color);
@@ -146,7 +196,7 @@ margin-right: 93px;
     letter-spacing: 0.03em;
       }
 
-
+.logo-link{}
 /* site nav */
 
 
@@ -204,6 +254,9 @@ padding-bottom: 32px;
 
 /* hero list */
 
+.page-header{
+    border-bottom: solid var(--secondary-text-color) 1px;
+}
 
 .hero-title{
 color: var(--hero-text);
@@ -217,9 +270,11 @@ color: var(--hero-text);
     letter-spacing: 0.06em;
     text-transform: uppercase;
 
-    display: inline-block;
-    margin-top: 200px;
+    /* display: inline-block; */
+    /* margin-top: 200px; */
     margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
 } 
 .container-hero-title{
     display: flex;
@@ -239,12 +294,13 @@ color: var(--hero-text);
 
   
     border-radius: 4px;
-    margin-bottom: 200px;
+    /* margin-bottom: 200px; */
     padding-top: 10px;
     padding-right: 32px;
     padding-bottom: 10px;
     padding-left: 32px;
     cursor: pointer;
+    
 }
 
 .container-hero-button{
@@ -267,7 +323,10 @@ color: var(--hero-text);
 }
 
 .hero-post{
-    background-color: var(--hero-becgr-color)
+    background-color: var(--hero-becgr-color);
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
     }
 
 
@@ -288,12 +347,19 @@ color: var(--hero-text);
 }
 
 .first-page-img{
-    padding-right: 30px;
+    margin-right: 30px;
 }
 
 .first-page-img:nth-child(3n) {
-    padding-right: 0px;
+    margin-right: 0px;
 } 
+.li-section-one{
+    margin-right: 30px;
+}
+
+.li-section-one:last-child {
+    margin-right: 0px;
+}
 
 .title-one{
     
@@ -320,23 +386,25 @@ color: var(--hero-text);
 
 /* two */
 
+.work-section{
 
-.our-work-container{
-    display: flex;
-    
-    justify-content: center;
+    padding-top: 0;
+    padding-bottom: 0;
 }
 
+
+
 .first-page-team{
-    padding-right: 30px;
+    margin-right: 30px;
 }
 
 .first-page-team:nth-child(4n) {
-    padding-right: 0px;
+    margin-right: 0px;
 } 
 
 .title{
    
+    text-align: center;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
@@ -352,6 +420,10 @@ color: var(--hero-text);
     justify-content: center;
 }
 
+.team-section {
+    background-color: var(--backgr-second);
+}
+
 .title-two{
 
     
@@ -360,10 +432,16 @@ color: var(--hero-text);
     line-height: 1.18;
     letter-spacing: 0.03em;
 
-    margin-top: 30px;
+    /* margin-top: 30px; */
     margin-bottom: 10px;
 
     
+    }
+
+    .doun-pfoto{
+        padding-top: 30px;
+        padding-left: 30px;
+        text-align: center;
     }
 
 .text-two{
@@ -383,7 +461,7 @@ color: var(--hero-text);
 
 .footer{
     background-color:var(--hero-becgr-color);
-    padding: 60 0;
+    padding: 60px 0;
 }
 
 .footer-container{
@@ -509,8 +587,6 @@ color: var(--hero-text);
 
 
 
-
-
 /* second list */
 
 
@@ -518,8 +594,8 @@ color: var(--hero-text);
     display: flex;
     align-items: center;
     justify-content: center; 
-    margin-bottom: 34px;
-    margin-right: 8px;
+    /* margin-bottom: 34px; */
+    /* margin-right: 8px; */
 }
 
 .second-page-button:last-child{
@@ -533,6 +609,7 @@ color: var(--hero-text);
     line-height: 1.63;
     text-align: center;
     letter-spacing: 0.03em;
+    
 
     border-radius: 4px;
     padding-top: 6px;
@@ -560,10 +637,23 @@ color: var(--hero-text);
     
     
 }
+.secound-list-button-li{
+    text-decoration: none;
+    justify-content: center;
+    display: flex;
+    list-style-type: none;
+    margin-bottom: 34px;
+   
+}
 
 .second-list-info-li{
+    display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
     margin-right: 30px;
     margin-bottom: 30px;
+    
 }
 
 .second-list-info-li:nth-child(3n) {
@@ -578,6 +668,12 @@ color: var(--hero-text);
 
 }
 
+.list-two-main-info{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
 
 .second-title{
     color: var(--primary-text-color);
@@ -603,3 +699,8 @@ color: var(--hero-text);
     margin-bottom: 50px;
 
 }
+.description-page-two{
+    padding: 20px 24px;
+    text-align: left;
+}
+
