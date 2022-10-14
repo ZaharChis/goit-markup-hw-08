@@ -7,7 +7,8 @@
     --backgr-second:#F5F4FA;
     --hero-text:#FFFFFF;
     --hero-becgr-color:#2F303A;
-    --foot-links-color:rgba(255, 255, 255, 0.6)
+    --foot-links-color:rgba(255, 255, 255, 0.6);
+    --border-color: #eeeeee;
 }
 
 
@@ -158,8 +159,8 @@ img {
 .navigation {
     display: flex;
         align-items: center;
-        justify-content: flex-end;
-        margin-right: 344px;
+        /* justify-content: flex-end; */
+        margin-right: auto;
 }
 
 .section{
@@ -702,6 +703,7 @@ color: var(--hero-text);
 .description-page-two{
     padding: 20px 24px;
     text-align: left;
-    
+    border: 1px solid var(--border-color);
+    border-top: none;
 }
 
