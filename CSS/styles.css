@@ -197,7 +197,7 @@ img {
     letter-spacing: 0.03em;
       }
 
-.logo-link{}
+
 /* site nav */
 
 
@@ -212,6 +212,8 @@ img {
 display: block;
 padding-top: 32px;
 padding-bottom: 32px;
+
+
 
 
         text-decoration: none;
@@ -232,12 +234,18 @@ padding-bottom: 32px;
     }
 
 .auth-nav-link  {
-    display: block;
-padding-top: 32px;
-padding-bottom: 32px;
-   
+    
+    padding-top: 32px;
+    padding-bottom: 32px;
+    /* background-color: rgb(206, 90, 90); */
     color:var(--secondary-text-color) ;
      text-decoration: none;
+width: 161px;
+display: flex;
+align-items: center;
+
+
+    
     
         
         font-weight: 500;
@@ -252,6 +260,28 @@ padding-bottom: 32px;
     color: var(--accent-color)
    }
 
+.auth-nav-link::before {
+    content: "" ;
+    display: inline-flex;
+    align-items: center;
+    width: 16px; 
+    height: 12px;
+    /* outline: solid red 2px; */
+    
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    margin-right: 10px;
+}
+
+.mail::before{
+    background-image: url(../imeges/envelope\ \(hover\)\ \(1\).svg);
+}
+
+.phone::before{
+    background-image: url(../imeges/smartphone\ \(1\).svg);
+}
 
 /* hero list */
 
@@ -324,10 +354,22 @@ color: var(--hero-text);
 }
 
 .hero-post{
+    margin-left: auto;
+    margin-right: auto;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)),
+     url(../imeges/hero.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 600px;
+    max-width: 1600px;
+
+
     background-color: var(--hero-becgr-color);
     text-align: center;
     padding-top: 200px;
     padding-bottom: 200px;
+    
+
     }
 
 
