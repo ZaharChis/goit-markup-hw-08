@@ -397,7 +397,7 @@ color: var(--hero-text);
     margin-right: 0px;
 } 
 .li-section-one{
-    margin-right: 30px;
+    margin-right: 0px;
 }
 
 .li-section-one:last-child {
@@ -443,6 +443,7 @@ color: var(--hero-text);
 
 .astronavt{
     background-image: url(../imeges/astronaut\ 1\ \(1\).svg);
+    margin-right: 0%;
 }
 
 
