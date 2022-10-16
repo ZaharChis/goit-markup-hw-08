@@ -483,12 +483,12 @@ color: var(--hero-text);
     background-image: url(../imeges/diagram\ 1\ \(1\).svg);
 }
 
-.astronavt::before{
+/* .astronavt::before{
     background-image: url(../imeges/astronaut\ 1\ \(1\).svg);
-} */ */
+} */ 
 
 
-.title-one{
+.title-one {
     
         
         font-weight: 700;
