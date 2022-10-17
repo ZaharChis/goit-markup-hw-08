@@ -276,9 +276,9 @@ align-items: center;
     margin-right: 10px;
 }
 
-.mail::before{
+/* .mail::before{
     background-image: url(../imeges/envelope\ \(hover\)\ \(1\).svg);
-}
+} */
 
 .phone::before{
     background-image: url(../imeges/smartphone\ \(1\).svg);
