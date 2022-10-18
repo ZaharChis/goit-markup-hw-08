@@ -567,6 +567,8 @@ color: var(--hero-text);
         }
         .list-our-clients {
             display: flex;
+            
+            box-sizing: border-box;
             margin-right: 30px;
             text-align: center;
             list-style: none;
@@ -582,8 +584,16 @@ color: var(--hero-text);
           
         .doun-clients{
             fill: var(--soshial-icons);
-            /* width: 50px; 
-            height: 30px;  */
+            width: 170px; 
+            height: 92px; 
+            text-align: center;
+            margin-top: 16px;
+            margin-bottom: 16px;
+        }
+
+        .doun-clients:hover{
+            color: var(--accent-color);
+            
         }
         
 
@@ -594,6 +604,8 @@ color: var(--hero-text);
 .footer{
     background-color:var(--hero-becgr-color);
     padding: 60px 0;
+    display: flex;
+    
 }
 
 .footer-container{
@@ -716,8 +728,28 @@ color: var(--hero-text);
     
 
 }
+.footer-join{
 
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
 
+color: var(--hero-text);
+}
+
+.footer-soshial{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 206px; 
+    height: 80px;
+   
+
+}
 
 
 
