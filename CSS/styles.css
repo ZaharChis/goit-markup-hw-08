@@ -425,7 +425,7 @@ color: var(--hero-text);
     width: 270px;
     height: 120px;
     background-color: var(--backgr-second);
-    margin-top: 95px;
+    /* margin-top: 95px; */
     margin-bottom: 30px;
     
     align-items: center;
