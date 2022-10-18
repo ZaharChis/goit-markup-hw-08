@@ -236,15 +236,14 @@ padding-bottom: 32px;
     }
 
 .auth-nav-link  {
-    
+    fill: currentColor;
     padding-top: 32px;
     padding-bottom: 32px;
-    /* background-color: rgb(206, 90, 90); */
     color:var(--secondary-text-color) ;
-     text-decoration: none;
-width: 161px;
-display: flex;
-align-items: center;
+    text-decoration: none;
+    width: 161px;
+    display: flex;
+    align-items: center;
 
 
     
@@ -276,13 +275,10 @@ align-items: center;
     height: 12px;
     display: inline-flex;
     align-items: center;
-    fill: var(--secondary-text-color);
+    
 }
-.contakt-icon-mail:hover,
-.contakt-icon-mail:focus
-{
-    color: var(--accent-color)
-   }
+
+
 
 
 .contakt-icon-phone{
@@ -291,7 +287,7 @@ align-items: center;
     height: 16px;
     display: inline-flex;
     align-items: center;
-    fill: var(--secondary-text-color);
+   
 
 }
 
@@ -549,7 +545,7 @@ color: var(--hero-text);
         }
 
     .team-soshial-links{
-        
+        display: block;
         padding-top: 16px;
         gap: 10px;
         width: 44px; 
@@ -557,6 +553,11 @@ color: var(--hero-text);
         display: inline-flex;
         align-items: center;
         fill: var(--soshial-icons);}
+
+        .team-soshial-links:hover{
+            fill: var(--accent-color);
+            
+        }
 
 
         .our-clients{
@@ -575,7 +576,7 @@ color: var(--hero-text);
             width: 170px; 
             height: 92px;  
            
-           border: 1px solid #AFB1B8
+           
            }
            .list-our-clients:last-child{
             margin-right: 0px;
@@ -587,13 +588,18 @@ color: var(--hero-text);
             width: 170px; 
             height: 92px; 
             text-align: center;
-            margin-top: 16px;
-            margin-bottom: 16px;
+            
+            border: 1px solid var(--soshial-icons);
         }
 
         .doun-clients:hover{
-            color: var(--accent-color);
+            fill: var(--accent-color);
             
+        }
+
+        .svg-clients{
+            margin-top: 16px;
+            margin-bottom: 16px;
         }
         
 
@@ -817,6 +823,7 @@ color: var(--hero-text);
 }
 
 .second-list-info-li{
+    border: 1px solid #EEEEEE
     display: flex;
         flex-wrap: wrap;
         align-items: center;
