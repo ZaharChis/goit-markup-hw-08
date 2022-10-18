@@ -748,15 +748,42 @@ color: var(--hero-text);
 }
 
 .footer-soshial{
-    display: flex;
+    
     align-items: center;
-    text-align: center;
+    
     width: 206px; 
     height: 80px;
    
+    justify-content: center;
 
+margin-left: 70px;
 }
 
+
+.team-soshial-links {
+   
+    }
+
+.li-soc-links{
+    
+    
+}    
+
+.ul-soc-links{
+    display: flex;
+    
+}
+
+.foot-container{
+    display: flex;
+    align-items: center;
+    
+    /* width: 206px; 
+    height: 80px; */
+   
+    
+
+}
 
 
 
