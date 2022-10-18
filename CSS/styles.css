@@ -611,7 +611,7 @@ color: var(--hero-text);
 
         .doun-clients:hover{
             fill: var(--accent-color);
-            
+            border: 1px solid var(--accent-color);
         }
 
         .svg-clients{
@@ -752,7 +752,8 @@ color: var(--hero-text);
 
 }
 .footer-join{
-
+    padding-top: 15px;
+box-sizing: border-box;
     font-family: 'Roboto';
 font-style: normal;
 font-weight: 700;
@@ -777,9 +778,30 @@ margin-left: 70px;
 }
 
 
-.team-soshial-links {
-   
+.team-soshial-links-footer {
+    display: block;
+        /* padding-top: 16px; */
+        /* gap: 10px; */
+        width: 44px; 
+        height: 44px;
+        display: inline-flex;
+        align-items: center;
+        fill: var(--hero-text);
+        background: rgba(255, 255, 255, 0.1);
+        justify-content: center;
+        border-radius: 50%;
     }
+
+    
+       
+        
+
+
+
+        .team-soshial-links-footer:hover{
+            fill: var(--hero-text);
+            background-color: var(--accent-color);
+        }
 
 .li-soc-links{
     
@@ -787,13 +809,15 @@ margin-left: 70px;
 }    
 
 .ul-soc-links{
+    
     display: flex;
+    padding-top: 20px;
     
 }
 
 .foot-container{
     display: flex;
-    align-items: center;
+   
     
     /* width: 206px; 
     height: 80px; */
