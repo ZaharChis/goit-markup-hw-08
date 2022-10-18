@@ -544,22 +544,39 @@ color: var(--hero-text);
         margin-top: 0px;
         }
 
+.team-list-soc{
+    margin-top: 16px;
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
     .team-soshial-links{
         display: block;
-        padding-top: 16px;
-        gap: 10px;
+        /* padding-top: 16px; */
+        /* gap: 10px; */
         width: 44px; 
         height: 44px;
         display: inline-flex;
         align-items: center;
-        fill: var(--soshial-icons);}
+        fill: var(--soshial-icons);
+        justify-content: center;
+        border-radius: 50%;
+        
+
+}
 
         .team-soshial-links:hover{
-            fill: var(--accent-color);
-            
+            fill: var(--hero-text);
+            background-color: var(--accent-color);
         }
 
-
+        .soc-icons{
+            list-style-type: none;
+        }
+        
         .our-clients{
            
            display: flex;
@@ -766,7 +783,7 @@ margin-left: 70px;
 
 .li-soc-links{
     
-    
+    list-style-type: none;
 }    
 
 .ul-soc-links{
@@ -910,3 +927,20 @@ margin-left: 70px;
     border-top: none;
 }
 
+.portfolio-link{
+    display: block;
+    background: var(--hero-text);
+    /* border: 1px solid var(--border-color); */
+}
+
+.portfolio-link:hover,
+.portfolio-link:focus{
+
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+.second-list-button:hover, 
+.second-list-button:focus{
+    color: var(--hero-text);
+    background-color: var(--accent-color);
+}
