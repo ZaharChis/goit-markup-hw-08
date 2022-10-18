@@ -427,7 +427,7 @@ color: var(--hero-text);
     background-color: var(--backgr-second);
     /* margin-top: 95px; */
     margin-bottom: 30px;
-    
+    justify-content: center;
     align-items: center;
     
     /* background-repeat: no-repeat;
@@ -707,7 +707,7 @@ color: var(--hero-text);
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    padding-top: 9px;
+    margin-top: 9px;
     
 }
 .foot-links:first-child {
@@ -835,9 +835,9 @@ margin-left: 70px;
 
 
 .second-page-button{
-    display: flex;
+    /* display: flex;
     align-items: center;
-    justify-content: center; 
+    justify-content: center;  */
     /* margin-bottom: 34px; */
     margin-right: 8px;
 }
