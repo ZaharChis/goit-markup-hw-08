@@ -183,6 +183,7 @@ img {
         font-size: 26px;
         line-height: 1.19;
         letter-spacing: 0.03em;
+        outline:none;
         }
 
 .logo-part{
@@ -197,6 +198,7 @@ img {
     font-Size:26px;
     Line-height: 1.19;
     letter-spacing: 0.03em;
+    outline:none;
       }
 
 
@@ -232,7 +234,8 @@ padding-bottom: 32px;
 .site-nav-link:hover,
 .site-nav-link:focus
 {
-    color:var(--accent-color) 
+    color:var(--accent-color) ;
+    outline:none;
     }
 
 .auth-nav-link  {
@@ -258,7 +261,8 @@ padding-bottom: 32px;
 .auth-nav-link:hover,
 .auth-nav-link:focus
 {
-    color: var(--accent-color)
+    color: var(--accent-color);
+    outline:none;
    }
 
 
@@ -333,13 +337,13 @@ color: var(--hero-text);
     
     color: var(--hero-text);
     background-color: var(--accent-color);
-
+    outline:none;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.06em;
-
-  
+    /* border-radius: none; */
+    border: transparent;
     border-radius: 4px;
     /* margin-bottom: 200px; */
     padding-top: 10px;
@@ -347,6 +351,7 @@ color: var(--hero-text);
     padding-bottom: 10px;
     padding-left: 32px;
     cursor: pointer;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     
 }
 
@@ -356,17 +361,18 @@ color: var(--hero-text);
     justify-content: center;
 }
 
-.hero-button:hover,
+/* .hero-button:hover,
 .hero-button:focus{
     color: var(--primary-text-color);
 
    
 
 
-    }
+    } */
 
 .hero-button:active{
     color:var(--secondary-text-color);
+    outline:none;
 }
 
 .hero-post{
@@ -378,7 +384,7 @@ color: var(--hero-text);
     background-position: center;
     height: 600px;
     max-width: 1600px;
-
+    background-size: auto;
 
     background-color: var(--hero-becgr-color);
     text-align: center;
@@ -557,8 +563,8 @@ color: var(--hero-text);
         display: block;
         /* padding-top: 16px; */
         /* gap: 10px; */
-        width: 44px; 
-        height: 44px;
+        width: 100%; 
+        height: 100%;
         display: inline-flex;
         align-items: center;
         fill: var(--soshial-icons);
@@ -568,13 +574,18 @@ color: var(--hero-text);
 
 }
 
-        .team-soshial-links:hover{
+        .team-soshial-links:hover,
+        .team-soshial-links:focus
+        {
             fill: var(--hero-text);
             background-color: var(--accent-color);
+            outline:none;
         }
 
         .soc-icons{
             list-style-type: none;
+            width: 44px;
+            height: 44px;
         }
         
         .our-clients{
@@ -584,11 +595,11 @@ color: var(--hero-text);
            margin-right: auto;
         }
         .list-our-clients {
-            display: flex;
+            /* display: flex; */
             
-            box-sizing: border-box;
+            /* box-sizing: border-box; */
             margin-right: 30px;
-            text-align: center;
+            /* text-align: center; */
             list-style: none;
             width: 170px; 
             height: 92px;  
@@ -602,23 +613,27 @@ color: var(--hero-text);
           
         .doun-clients{
             fill: var(--soshial-icons);
-            width: 170px; 
-            height: 92px; 
-            text-align: center;
-            
+            width: 100%; 
+            height: 100%; 
+            /* text-align: center; */
+            display: flex;
+            align-items: center;
+            justify-content: center;
             border: 1px solid var(--soshial-icons);
+            border-radius: 4px;
         }
 
         .doun-clients:hover,
         .doun-clients:focus
         {
             fill: var(--accent-color);
+            outline:none;
             border: 1px solid var(--accent-color);
         }
 
         .svg-clients{
-            margin-top: 16px;
-            margin-bottom: 16px;
+            /* margin-top: 16px;
+            margin-bottom: 16px; */
         }
         
 
@@ -629,7 +644,7 @@ color: var(--hero-text);
 .footer{
     background-color:var(--hero-becgr-color);
     padding: 60px 0;
-    display: flex;
+    /* display: flex; */
     
 }
 
@@ -643,7 +658,7 @@ color: var(--hero-text);
 .logo-foot{
     text-decoration: none;
     color: var(--accent-color);
-
+    outline:none;
     font-family: 'Raleway', sans-serif;
    
     font-weight: 700;
@@ -661,7 +676,7 @@ color: var(--hero-text);
 
 .logo-foot-part{
             text-decoration: none;
-
+            outline:none;
             color:var(--hero-text);
             font-family: 'Raleway', sans-serif;
             font-style: normal;
@@ -697,15 +712,15 @@ color: var(--hero-text);
 
 .foot-links:hover,
 .foot-links:focus
-{
-    color:var(--accent-color) 
+{   outline:none;
+    color:var(--accent-color);
 }
 
 .foot-links{
     
     
     color: var(--foot-links-color);
-
+    
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -720,8 +735,8 @@ color: var(--hero-text);
 
 .foot-links-two:hover,
 .foot-links-two:focus
-{
-    color:var(--accent-color) 
+{   outline:none;
+    color:var(--accent-color);
 }
 
 .adress{
@@ -731,7 +746,7 @@ color: var(--hero-text);
 .adress-link-map{
     text-decoration: none;
     color: var(--hero-text);
-
+    outline:none;
     font-family: 'Roboto';
     font-style: normal;
     font-size: 14px;
@@ -744,7 +759,7 @@ color: var(--hero-text);
 .adress-link {
     text-decoration: none;
     color: var(--foot-links-color);
-
+    outline:none;
     font-style: normal;
     font-size: 14px;
     line-height: 1.71;
@@ -754,7 +769,7 @@ color: var(--hero-text);
 
 }
 .footer-join{
-    padding-top: 15px;
+    /* padding-top: 15px; */
 box-sizing: border-box;
     font-family: 'Roboto';
 font-style: normal;
@@ -784,8 +799,8 @@ margin-left: 70px;
     display: block;
         /* padding-top: 16px; */
         /* gap: 10px; */
-        width: 44px; 
-        height: 44px;
+        width: 100%; 
+        height: 100%;
         display: inline-flex;
         align-items: center;
         fill: var(--hero-text);
@@ -800,21 +815,25 @@ margin-left: 70px;
 
 
 
-        .team-soshial-links-footer:hover{
+        .team-soshial-links-footer:hover,
+        .team-soshial-links-footer:focus
+        {
+            outline:none;
             fill: var(--hero-text);
             background-color: var(--accent-color);
         }
 
 .li-soc-links{
-    
+    width: 44px;
+    height: 44px;
     list-style-type: none;
 }    
 
 .ul-soc-links{
     
     display: flex;
-    padding-top: 20px;
-    
+    margin-top: 20px;
+    gap: 10px;
 }
 
 .foot-container{
@@ -840,8 +859,9 @@ margin-left: 70px;
     /* display: flex;
     align-items: center;
     justify-content: center;  */
-    /* margin-bottom: 34px; */
+    /* border: transparent; */
     margin-right: 8px;
+    
 }
 
 .second-page-button:last-child{
@@ -855,7 +875,7 @@ margin-left: 70px;
     line-height: 1.63;
     text-align: center;
     letter-spacing: 0.03em;
-    
+    border: transparent;
 
     border-radius: 4px;
     padding-top: 6px;
@@ -863,6 +883,7 @@ margin-left: 70px;
     padding-bottom: 6px;
     padding-left: 25px;
     cursor: pointer;
+    background-color: var(--backgr-second);
     /* margin-right: 8px; */
 }
 
@@ -872,6 +893,8 @@ margin-left: 70px;
 .second-list-button:focus{
     color: var(--hero-text);
     background-color: var(--accent-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    /* border: none; */outline:none;
 }
 
 
@@ -889,19 +912,21 @@ margin-left: 70px;
     display: flex;
     list-style-type: none;
     margin-bottom: 50px;
-   
+    
 }
 
 .second-list-info-li{
-    border: 1px solid #EEEEEE
+    border: 1px solid #EEEEEE;
     display: flex;
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;
     margin-right: 30px;
     margin-bottom: 30px;
-    
+    border: transparent;
 }
+
+
 
 .second-list-info-li:nth-child(3n) {
     
@@ -956,6 +981,7 @@ margin-left: 70px;
 .portfolio-link{
     display: block;
     background: var(--hero-text);
+    outline:none;
     /* border: 1px solid var(--border-color); */
 }
 
@@ -967,6 +993,7 @@ margin-left: 70px;
 
 .second-list-button:hover, 
 .second-list-button:focus{
+    outline:none;
     color: var(--hero-text);
     background-color: var(--accent-color);
 }
