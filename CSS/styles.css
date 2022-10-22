@@ -1210,3 +1210,10 @@ border-radius: 4px;
 padding-left: 536px;
 padding-right: 536px; */
 }
+
+.svg-close{
+    display: flex;
+    width: 30px;
+    height: 30px;
+    justify-content: right;
+}
