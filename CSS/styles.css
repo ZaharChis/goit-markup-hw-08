@@ -1226,8 +1226,8 @@ padding-right: 536px; */
 
 .modal-close-button{
     position: absolute;
-    top: 0;
-    right: 0;
+    top: 17px;
+    right: 17px;
     /* transform: translate(-50%, -50%) scale(1); */
     width: 18px;
     height: 18px;
