@@ -1224,3 +1224,12 @@ padding-right: 536px; */
     justify-content: right;
 }
 
+.modal-close-button{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1);
+    width: 528px;
+    border-radius: 4px;
+    background-color: var(--white-color);
+}
