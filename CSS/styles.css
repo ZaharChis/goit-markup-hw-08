@@ -1174,7 +1174,7 @@ opacity: 0;
 /* Modal-window */
 
 .backdrop{
-    
+
 position: fixed;
 top: 0;
 left: 0;
@@ -1197,6 +1197,7 @@ border-radius: 4px; */
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
+    background-color: var(--hero-text);
 }
 
 .modal{
@@ -1226,13 +1227,14 @@ padding-right: 536px; */
 
 .modal-close-button{
     position: absolute;
-    top: 17px;
-    right: 17px;
+    top: 8px;
+    right: 8px;
     /* transform: translate(-50%, -50%) scale(1); */
-    width: 18px;
-    height: 18px;
-    border-radius: 4px;
+    width: 30px;
+    height: 30px;
+    /* border-radius: 4px; */
     background-color: var(--white-color);
     border-radius: 50%;
-    border: 1px solid #0000001A
+    border: 1px solid #0000001A;
+    cursor: pointer;
 }
