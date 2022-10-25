@@ -947,16 +947,26 @@ margin-left: 70px;
     display: flex;
     align-items: baseline;
     
-    /* width: 206px; 
-    height: 80px; */
-   
-    
+    }
 
+.footer-email-text{
+
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+color: var(--hero-text);
+margin-bottom: 20px;
 }
 
+.footer-email-section{
+margin-left: 93px;
 
-
-
+}
 
 
 /* second list */
@@ -1107,13 +1117,13 @@ opacity: 0;
     .portfolio-link:hover .blue-phone-text, 
     .portfolio-link:focus .blue-phone-text{
     
-      transform: translateY(0);  
+      transform: translateY(0); 
+      opacity: 1;
+      
     }
 
 
-.blue-phone-text:hover{
-    opacity: 1;
-}
+
 
 .list-two-main-info{
     display: flex;
@@ -1237,4 +1247,20 @@ padding-right: 536px; */
     border-radius: 50%;
     border: 1px solid #0000001A;
     cursor: pointer;
+}
+
+.modal-main-text{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.15;
+    text-align: center;
+    letter-spacing: 0.03em;
+    
+    color: var(--primary-text-color);
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+
 }
