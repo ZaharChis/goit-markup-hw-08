@@ -888,11 +888,11 @@ color: var(--hero-text);
 .footer-soshial{
     
     align-items: center;
-    
+    justify-content: center;
     width: 206px; 
     height: 80px;
    
-    justify-content: center;
+    
 
 margin-left: 70px;
 }
@@ -960,13 +960,60 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 
 color: var(--hero-text);
-margin-bottom: 20px;
+/* margin-bottom: 20px; */
 }
 
 .footer-email-section{
 margin-left: 93px;
 
 }
+
+
+.footer-email-window{
+    width: 358px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    background-color: var(--hero-becgr-color);
+    padding-left: 16px;
+    color: var(--hero-text);
+}
+
+.footer-email-button{
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 50px;
+    
+   margin-left: 12px;
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 1.88;
+
+   letter-spacing: 0.06em;
+
+   color: var(--hero-text);
+   margin-top: 10px;
+   background-color: var(--accent-color);
+   border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* second list */
