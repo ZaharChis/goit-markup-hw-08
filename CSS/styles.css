@@ -1108,7 +1108,7 @@ opacity: 0;
     color: var(--hero-text);
     opacity: 0;
   
-    transition: transform 250ms;
+    transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
