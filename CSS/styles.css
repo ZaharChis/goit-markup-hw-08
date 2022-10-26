@@ -1411,6 +1411,7 @@ border: 1px solid var(--accent-color);
 }
 
 .modal-rules{
+    display: flex;
     margin-top: 20px;
     text-align: center;
 }
