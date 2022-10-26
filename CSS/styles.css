@@ -1380,10 +1380,17 @@ padding-top: 12px;
     border-color: var(--accent-color);
 }
 
+.textarea:hover, .textarea:focus{
+
+    border-color: var(--accent-color);
+}
+
 
 .form-imput:hover+.modal-icons, .form-imput:focus+.modal-icons{
     fill: var(--accent-color);
 }
+
+
 
 
 
@@ -1423,7 +1430,7 @@ border: 1px solid var(--accent-color);
 }
 
 .modal-rules{
-    display: flex;
+    
     margin-top: 20px;
     text-align: center;
 }
@@ -1447,6 +1454,8 @@ appearance: none;
     color: var(--secondary-text-color);
     padding-left: 28px;
 }
+
+
 
 .rules::before {
 
@@ -1481,6 +1490,14 @@ border-radius: 3px;
     background-color: var(--accent-color);
 opacity: 0;
 }
+
+.rules::after:checked{
+    opacity: 0;
+}
+.rules::before:checked{
+    opacity: 0;
+}
+
 
 .modal-check-rules:checked + .rules::after   {
 opacity: 1;
