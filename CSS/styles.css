@@ -1378,6 +1378,12 @@ padding-top: 12px;
     width: 100%;
 }
 
+.box-modal-icons:hover,
+.box-modal-icons:focus{
+fill: var(--accent-color);
+border: 1px solid var(--accent-color);
+}
+
 .modal-icons{
     position: absolute;
     contain: '';
