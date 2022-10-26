@@ -287,9 +287,10 @@
 
       <form class="footer-email-section">
         <p class="footer-email-text">Підпишіться на розсилку</p>
-        <label  for="email"></label>
+        <div class="inp-but">
         <input class="footer-email-window" type="email" name="mail" id="email" placeholder="E-mail">
         <button class="footer-email-button" type="submit">Підписатися <svg class="footer-icon-send" height="24" width="24"><use href="./imeges/symbol-defs.svg#icon-icon-send"></use></svg> </button>
+        </div>
       </form>
       
     </div>
@@ -299,6 +300,36 @@
   <div class="modal">
     <h2 class="modal-main-text">Залиште свої дані, ми вам передзвонимо</h2>
     <button class="modal-close-button" type="button" data-modal-close><svg width="11" height="11" class="svg-close"><use href="./imeges/symbol-defs.svg#icon-Vector"></use></svg></button>
+    <form class="modal-contacts">
+    <div class="modal-box">
+      <label class="form-label" for="name">Ім'я</label>
+      <div class="box-modal-icons">
+      <input class="form-imput" type="text" name="name" id="name">
+      <svg class="modal-icons"><use href="./imeges/symbol-defs.svg#icon-person-black-18dp-1"></use></svg>
+      </div>
+    </div>
+    <div class="modal-box">
+      <label class="form-label" for="tel">Телефон</label>
+      <div class="box-modal-icons">
+      <input class="form-imput" type="tel" name="tel" id="tel">
+      <svg class="modal-icons"><use href="./imeges/symbol-defs.svg#icon-phone-black-18dp-1"></use></svg>
+      </div>
+    </div>
+    <div class="modal-box">
+      <label class="form-label" for="mail">Пошта</label>
+      <div class="box-modal-icons">
+      <input class="form-imput" type="email" name="mail" id="mail">
+      <svg class="modal-icons"><use href="./imeges/symbol-defs.svg#icon-email-black-18dp-1"></use></svg>
+      </div>
+    </div>
+    <label class="form-label" for="comment">Коментар</label>
+      <textarea class="textarea" name="comment" id="comment" placeholder="Введіть текст"></textarea>
+      <div class="modal-rules">
+       <input class="modal-check-rules"   type="checkbox" name="polyci" id="polyci">
+       <label class="form-label rules"  for="polyci">Погоджуюся з розсилкою та приймаю Умови договору</label>
+      </div>
+       <button class="modal-send-button" type="submit">Відправити</button>
+    </form>
   </div>
 </div>
 
