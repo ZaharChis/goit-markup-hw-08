@@ -1001,7 +1001,7 @@ margin-left: 93px;
    border: 1px solid rgba(255, 255, 255, 0.3);
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
-    
+    /* box-sizing: border-box; */
 }
 
 
@@ -1270,6 +1270,10 @@ border-radius: 4px;
 
     width: 528px;
     height: 581px;
+
+    
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 /* padding-top: 221px;
 padding-left: 536px;
 padding-right: 536px; */
@@ -1294,6 +1298,8 @@ padding-right: 536px; */
     border-radius: 50%;
     border: 1px solid #0000001A;
     cursor: pointer;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-main-text{
