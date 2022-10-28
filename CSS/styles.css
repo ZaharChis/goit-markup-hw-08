@@ -1448,6 +1448,10 @@ cursor: pointer;
 appearance: none;
 }
 
+.modal-check-rules:checked{
+    opacity: 0;
+}
+
 .rules{
    
     position: relative;
