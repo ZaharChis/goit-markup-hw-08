@@ -149,7 +149,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 color:var(--accent-color) ;
     }
 
-.nav-list__site-nav-link.current:after{
+.nav-list__site-nav-link.nav-list__current:after{
 content:'';
 display: block;
 width: 100%;
