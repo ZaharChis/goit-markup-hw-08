@@ -503,21 +503,21 @@ border: 1px solid var(--accent-color);
 /* footer */
 
 
-.footer{
+.footer-main{
 background-color:var(--hero-becgr-color);
 padding: 60px 0;
 }
 
-.footer__box{
+.container__footer-main--container{
 display: flex;
 align-items: baseline;
 }
 
-.footer__box-one{
+.container__box-one{
 flex-grow: 1;
 }
     
-.footer__logo{
+.logo{
 text-decoration: none;
 color: var(--accent-color);
 outline:none;
@@ -530,7 +530,7 @@ display: inline-block;
 margin-bottom: 20px;    
 }
 
-.footer__logo-part{
+.logo__part-white{
 text-decoration: none;
 outline:none;
 color:var(--hero-text);
@@ -543,7 +543,7 @@ letter-spacing: 0.03em;
 display: inline-block;
 }
 
-.footer__list{
+.footer{
 list-style-type: none;
 margin: 0;
 padding: 0;
@@ -592,7 +592,7 @@ line-height: 1.71;
 letter-spacing: 0.03em;
 }
 
-.footer__soshial{
+.foot-soshial{
 align-items: center;
 justify-content: center;
 width: 206px; 
@@ -600,7 +600,7 @@ height: 80px;
 margin-left: 70px;
 }
 
-.footer__text{
+.foot-soshial__text{
 box-sizing: border-box;
 font-family: 'Roboto';
 font-style: normal;
@@ -612,19 +612,19 @@ text-transform: uppercase;
 color: var(--hero-text);
 }
 
-.footer__soc-list{
+.foot-soshial__list{
 display: flex;
 margin-top: 20px;
 gap: 10px;
 }
 
-.footer__soc-item{
+.foot-soshial__item{
 width: 44px;
 height: 44px;
 list-style-type: none;
 }   
 
-.footer__soc-link {
+.foot-soshial__link {
 display: block;
 width: 100%; 
 height: 100%;
@@ -639,18 +639,18 @@ transition-duration: 250ms;
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer__soc-link:hover,
-.footer__soc-link:focus{
+.foot-soshial__link:hover,
+.foot-soshial__link:focus{
 fill: var(--hero-text);
 background-color: var(--accent-color);
 }
 
-.footer__email{
+.foot-email{
 justify-content: end;
 margin-left: 93px;
 }
 
-.footer__email-text{
+.foot-email__text{
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 700;
@@ -662,11 +662,11 @@ color: var(--hero-text);
 margin-bottom: 20px;
 }
 
-.footer__input{
+.foot-email__input{
 display: flex;
 }
 
-.footer__email-window{
+.foot-email__window{
 width: 358px;
 height: 50px;
 border: 1px solid rgba(255, 255, 255, 0.3);
@@ -678,7 +678,7 @@ color: var(--hero-text);
 display: block;
 }
 
-.footer__email-button{
+.foot-email__button{
 align-items: center;
 justify-content: center;
 width: 200px;
