@@ -24,7 +24,7 @@
         margin-right: 30px;
     }
         
-    .work__item:nth-child(3n) {
+    &:nth-child(3n) {
     margin-right: 0px;
     } 
     

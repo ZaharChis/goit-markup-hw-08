@@ -54,7 +54,7 @@
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     }
     
-    .modal__close-button:hover{
+    &:hover{
     fill: var(--accent-color);
     }
     
@@ -169,7 +169,7 @@
     padding-left: 28px;
     }
     
-    .agree__rules::before {
+    &::before {
     position: absolute;
     content: '';
     top: 0;
@@ -180,7 +180,7 @@
     border-radius: 3px;
     }
     
-    .agree__rules::after {
+    &::after {
     position: absolute;
     content: '';
     top: 0;
@@ -196,11 +196,11 @@
     opacity: 0;
     }
     
-    .agree__rules::after:checked{
+    &::after:checked{
         opacity: 0;
     }
     
-    .agree__rules::before:checked{
+    &::before:checked{
         opacity: 0;
     }
     

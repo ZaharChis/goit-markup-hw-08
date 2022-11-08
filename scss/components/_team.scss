@@ -13,7 +13,7 @@
     margin-right: 30px;
     }
         
-    .team__item:nth-child(4n) {
+    &:nth-child(4n) {
     margin-right: 0px;
     } 
     
