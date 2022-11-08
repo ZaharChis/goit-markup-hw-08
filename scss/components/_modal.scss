@@ -80,7 +80,7 @@
     margin-bottom: 4px;
     }
         
-    .modal__label:checked{
+    &:checked{
     opacity: 0;
     }
     
@@ -104,7 +104,7 @@
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     }
                 
-    .modal__imput:hover, .modal__imput:focus{
+    &:hover, &:focus{
     border-color: var(--accent-color);
     }
               
@@ -121,7 +121,7 @@
     height: 18px;
     }
                     
-    .modal__icons:focus{
+    &:focus{
     fill: var(--accent-color);
     }           
     
@@ -139,7 +139,7 @@
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     }
     
-    .modal__textarea:hover, .modal__textarea:focus{
+    &:hover, &:focus{
         border-color: var(--accent-color);
         }
     

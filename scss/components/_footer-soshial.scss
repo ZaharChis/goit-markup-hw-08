@@ -45,8 +45,8 @@
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     }
     
-    .foot-soshial__link:hover,
-    .foot-soshial__link:focus{
+    &:hover,
+    &:focus{
     fill: var(--hero-text);
     background-color: var(--accent-color);
     }

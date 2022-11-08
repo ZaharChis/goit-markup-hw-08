@@ -38,8 +38,8 @@
     padding-top: 0px;
     }
     
-    .footer__item :hover,
-    .footer__item :focus{   
+    &:hover,
+    &:focus{   
         color:var(--accent-color);
     }
     

@@ -42,8 +42,8 @@
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     }
     
-    .site-nav__link:hover,
-    .site-nav__link:focus{
+    &:hover,
+    &:focus{
     color:var(--accent-color) ;
     }
     
@@ -97,8 +97,8 @@
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     }
     
-    .auth__link:hover,
-    .auth__link:focus{
+    &:hover,
+    &:focus{
         color: var(--accent-color);
     }
     
