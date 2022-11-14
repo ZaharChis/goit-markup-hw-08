@@ -18,15 +18,15 @@
     margin: 0;
     padding: 0;
     display: flex;
-    }
+}
     
     .work__item{
         margin-right: 30px;
-    }
+    
         
     &:nth-child(3n) {
     margin-right: 0px;
-    } 
+    } }
     
     .work__picture{
         position: relative;
@@ -52,4 +52,3 @@
     text-transform: uppercase;
     color: var(--hero-text);
     }
-    

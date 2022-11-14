@@ -4,7 +4,7 @@
     width: 206px; 
     height: 80px;
     margin-left: 70px;
-    }
+}
     
     .foot-soshial__text{
     box-sizing: border-box;
@@ -43,10 +43,10 @@
     transition-property: fill, background-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    }
+   
     
     &:hover,
     &:focus{
     fill: var(--hero-text);
     background-color: var(--accent-color);
-    }
+    } }

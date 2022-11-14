@@ -2,14 +2,14 @@
     list-style-type: none;
     margin: 0;
     padding: 0;
-    display: flex;
-    }
+    display: flex;}
+    
     
     .benefits__item{
     margin-right: 30px;
     }
     
-    &:last-child {
+    .benefits__item:last-child {
     margin-right: 0px;
     }
     
@@ -38,4 +38,3 @@
     line-height: 1.71;
     letter-spacing: 0.03em;
     }
-    
