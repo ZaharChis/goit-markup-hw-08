@@ -1,6 +1,12 @@
 .page-header{
     border-bottom: solid var(--border-bottom) 1px;
-    }
+
+    @media screen and (max-width: 480px) {
+        background-color: red;
+        }
+
+    
+
     
     .page-header__container{
     display: flex;
@@ -117,3 +123,4 @@
     display: inline-flex;
     align-items: center;
     }
+}
