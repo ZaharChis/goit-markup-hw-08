@@ -1,16 +1,10 @@
 .section__no-padding-top{
     padding-top: 0;
     padding-bottom: 94px;
+    
     }
     
-    .section__title{
-    text-align: center;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.16;
-    letter-spacing: 0.03em;
-    margin-bottom: 50px;
-    }
+   
     
     .work {
     text-align: center;
@@ -18,6 +12,7 @@
     margin: 0;
     padding: 0;
     display: flex;
+    display: none;
 }
     
     .work__item{

@@ -223,6 +223,7 @@ a {
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
+  display: none;
 }
 
 .hero__title {
@@ -255,9 +256,20 @@ a {
   padding-left: 32px;
   cursor: pointer;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  display: none;
 }
 .hero__button:active {
   color: var(--secondary-text-color);
+}
+
+.section__title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  margin-bottom: 50px;
+  display: none;
 }
 
 .benefits {
@@ -265,6 +277,7 @@ a {
   margin: 0;
   padding: 0;
   display: flex;
+  display: none;
 }
 
 .benefits__item {
@@ -306,21 +319,13 @@ a {
   padding-bottom: 94px;
 }
 
-.section__title {
-  text-align: center;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
-  letter-spacing: 0.03em;
-  margin-bottom: 50px;
-}
-
 .work {
   text-align: center;
   list-style-type: none;
   margin: 0;
   padding: 0;
   display: flex;
+  display: none;
 }
 
 .work__item {
@@ -364,6 +369,7 @@ a {
   margin: 0;
   padding: 0;
   display: flex;
+  display: none;
 }
 
 .team__item {
@@ -403,6 +409,7 @@ a {
   gap: 10px;
   display: flex;
   justify-content: center;
+  display: none;
 }
 
 .soshials__item {
@@ -433,6 +440,7 @@ a {
   display: flex;
   margin-left: auto;
   margin-right: auto;
+  display: none;
 }
 
 .clients__item {
@@ -466,6 +474,7 @@ a {
 .footer-main {
   background-color: var(--hero-becgr-color);
   padding: 60px 0;
+  display: none;
 }
 
 .container__footer-main--container {
@@ -535,6 +544,7 @@ a {
   letter-spacing: 0.03em;
   display: inline-block;
   margin-bottom: 20px;
+  display: none;
 }
 
 .logo__part-white {
@@ -556,6 +566,7 @@ a {
   width: 206px;
   height: 80px;
   margin-left: 70px;
+  display: none;
 }
 
 .foot-soshial__text {
@@ -604,6 +615,7 @@ a {
 .foot-email {
   justify-content: end;
   margin-left: 93px;
+  display: none;
 }
 
 .foot-email__text {
@@ -660,6 +672,7 @@ a {
   display: flex;
   list-style-type: none;
   margin-bottom: 50px;
+  display: none;
 }
 
 .button__item {
@@ -704,6 +717,7 @@ a {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  display: none;
 }
 
 .portfolio__item {
