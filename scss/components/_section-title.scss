@@ -1,5 +1,5 @@
 .section__title{
-    @media (max-width: 480px) {
+    @media (min-width: 480px) {
         width: 450px;
         
         margin-left: auto;
@@ -15,7 +15,7 @@
     margin-bottom: 30px;
     }
 
-    @media (max-width: 768px) {
+    @media (min-width: 768px) {
         width: 450px;
         
         margin-left: auto;
@@ -34,26 +34,26 @@
 
 
     .section__title-mobile{
-        @media (max-width: 480px){
+        @media (min-width: 480px){
             display: none;
         }
 
     }
 
     .section__title-mobile{
-        @media (max-width: 768px){
+        @media (min-width: 768px){
             
         }
 
     }
 
-    // .section__title{
-    //     @media (max-width: 1200px){
-    //     text-align: center;
-    //     font-weight: 700;
-    //     font-size: 36px;
-    //     line-height: 1.16;
-    //     letter-spacing: 0.03em;
-    //     margin-bottom: 50px;}
+    .section__title{
+        @media (min-width: 1200px){
+        text-align: center;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.16;
+        letter-spacing: 0.03em;
+        margin-bottom: 50px;}
         
-    //     }
+        }
