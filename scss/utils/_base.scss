@@ -33,11 +33,16 @@ color: var(--primary-text-color);
 }
 
 .container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+
+
     @media (max-width: 480px) {
             
         
-        margin-left: auto;
-        margin-right: auto;
+        
     width: 480px;
     margin: 0 auto;
     padding: 0 15px;}
@@ -54,8 +59,27 @@ color: var(--primary-text-color);
 // }
 
 .section{
-padding: 94px 0;   
+     @media (max-width: 480px) {
+padding: 60px 0;   }
 }
+
+.section__no-padding-top{ @media (max-width: 480px) {
+    padding: 0 0;   
+    }
+    
+    }
+
+// .section{
+//     padding: 94px 0;   
+//     }
+
+
+// .section__no-padding-top{
+//     padding-top: 0;
+//     padding-bottom: 94px;
+    
+//     }
+
 
 .visually-hidden{
 position: absolute;
