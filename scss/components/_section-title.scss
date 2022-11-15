@@ -14,7 +14,25 @@
     letter-spacing: 0.03em;
     margin-bottom: 30px;
     }
+
+    @media (max-width: 768px) {
+        width: 450px;
+        
+        margin-left: auto;
+        margin-right: auto;
+        padding-right: 15px;
+        padding-right: 15px;
+    
+    text-align: center;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    margin-bottom: 30px;
     }
+    }
+
+
     .section__title-mobile{
         @media (max-width: 480px){
             display: none;
@@ -22,12 +40,20 @@
 
     }
 
-    // .section__title{
-    //     text-align: center;
-    //     font-weight: 700;
-    //     font-size: 36px;
-    //     line-height: 1.16;
-    //     letter-spacing: 0.03em;
-    //     margin-bottom: 50px;
-    //     display: none;
-    //     }
+    .section__title-mobile{
+        @media (max-width: 768px){
+            
+        }
+
+    }
+
+    .section__title{
+        @media (max-width: 1200px){
+        text-align: center;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.16;
+        letter-spacing: 0.03em;
+        margin-bottom: 50px;}
+        
+        }
