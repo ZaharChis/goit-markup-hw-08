@@ -9,10 +9,10 @@
        padding-right: 15px;
        padding-right: 15px;
         }
-        // @media (min-width: 768px){
-        //     width: 768px;
-        //     height: 80px;
-        // }
+        @media (min-width: 768px){
+            width: 100%;
+            height: 100%;
+        }
     }
 
     .page-header__container{
@@ -32,10 +32,7 @@
     margin-top: 10px;
     margin-bottom: 10px;
     outline: none;
-    @media (max-width: 767px) {
-        
-        display: none;
-         }
+   
 
     }
     
@@ -46,8 +43,9 @@
     margin-left: 93px;
     display: flex;
     @media (min-width: 480px) {
+        
         display: none;
-        }
+         }
     }
     
     .site-nav__item  {
@@ -101,9 +99,10 @@
     margin-left: auto;
     padding: 0;
     display: flex;
-    @media (max-width: 480px) {
+    @media (min-width: 480px) {
+        
         display: none;
-        }
+         }
     }
     
     .auth__item {
