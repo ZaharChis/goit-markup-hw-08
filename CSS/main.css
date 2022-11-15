@@ -319,8 +319,8 @@ a {
     padding-right: 15px;
     text-align: center;
     font-weight: 700;
-    font-size: 36px;
-    line-height: 1.16;
+    font-size: 28px;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     margin-bottom: 30px;
   }
@@ -768,6 +768,12 @@ a {
     padding-left: 16px;
     color: var(--hero-text);
     display: block;
+  }
+}
+
+@media (max-width: 480px) {
+  .foot-email__button-box {
+    margin-top: 20px;
   }
 }
 

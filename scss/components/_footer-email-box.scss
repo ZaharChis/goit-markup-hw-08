@@ -17,7 +17,11 @@
     margin-bottom: 20px;}
     }
     
-   
+    .foot-email__input{
+        @media (max-width: 480px) {
+            
+        }
+    }
     
     .foot-email__window{
         @media (max-width: 480px) {
@@ -30,6 +34,11 @@
     padding-left: 16px;
     color: var(--hero-text);
     display: block;}
+    }
+    .foot-email__button-box{
+        @media (max-width: 480px) {
+            margin-top: 20px;}
+
     }
     
     .foot-email__button{
