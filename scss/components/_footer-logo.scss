@@ -9,13 +9,23 @@
     line-height: 1.19;
     letter-spacing: 0.03em;
     display: inline-block;
-        margin-bottom: 20px;  }
-     
+    margin-bottom: 20px;  }
+
+    @media (max-width: 768px) {
+    text-decoration: none;
+    color: var(--accent-color);
+    outline:none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    display: inline-block;
+    margin-bottom: 20px;  }
 }
     
     .logo__part-white{
-
-        @media (max-width: 480px) {
+    @media (max-width: 480px) {
     text-decoration: none;
     outline:none;
     color:var(--hero-text);
@@ -26,6 +36,18 @@
     line-height: 1.19;
     letter-spacing: 0.03em;
     display: inline-block;}
+
+    @media (max-width: 768px) {
+        text-decoration: none;
+        outline:none;
+        color:var(--hero-text);
+        font-family: 'Raleway', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.19;
+        letter-spacing: 0.03em;
+        display: inline-block;}
     }
 
 
