@@ -38,9 +38,23 @@ align-items: baseline;}
 }
 
 .container__box-one{
+@media (min-width: 768px) {
+margin-right: 165px;
+margin-left: 76px;
+}
+
 @media (min-width: 1200px){
 flex-grow: 1;}
 }
+
+.container__tablet-box{
+@media (min-width: 768px) {
+display: flex;
+align-items: baseline;
+margin-right: auto;
+margin-left: auto;
+}}
+
     
 .footer{
 @media (min-width: 480px) {
