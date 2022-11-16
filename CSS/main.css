@@ -436,6 +436,7 @@ a {
 }
 @media (min-width: 1200px) {
   .hero {
+    width: 1600px;
     margin-left: auto;
     margin-right: auto;
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../imeges/hero.jpg);
@@ -1208,6 +1209,7 @@ a {
 }
 @media (min-width: 1200px) {
   .footer-main {
+    width: 1600px;
     background-color: var(--hero-becgr-color);
     padding: 60px 0;
   }
