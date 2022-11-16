@@ -1536,11 +1536,9 @@ a {
   }
 }
 
-.foot-soshial__text {
-  text-align: left;
-}
 @media (min-width: 480px) {
   .foot-soshial__text {
+    text-align: center;
     box-sizing: border-box;
     font-family: "Roboto";
     font-style: normal;
@@ -1576,6 +1574,7 @@ a {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--hero-text);
+    text-align: left;
   }
 }
 
@@ -1747,6 +1746,7 @@ a {
     text-transform: uppercase;
     color: var(--hero-text);
     margin-bottom: 20px;
+    text-align: left;
   }
 }
 

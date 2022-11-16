@@ -20,6 +20,7 @@ height: 80px;
     
 .foot-soshial__text{
 @media (min-width: 480px) {
+    text-align: center;
 box-sizing: border-box;
 font-family: 'Roboto';
 font-style: normal;
@@ -50,8 +51,8 @@ font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: var(--hero-text);}
-text-align: left;
+color: var(--hero-text);
+text-align: left;}
 }
     
 .foot-soshial__list{
