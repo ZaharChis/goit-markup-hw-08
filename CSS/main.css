@@ -772,7 +772,7 @@ a {
 }
 @media (min-width: 1200px) {
   .work {
-    width: 1600px;
+    width: 1200px;
     text-align: center;
     list-style-type: none;
     margin: 0;
@@ -877,12 +877,11 @@ a {
 }
 @media (min-width: 1200px) {
   .team {
-    width: 1600px;
+    width: 1200px;
     list-style-type: none;
     margin: 0;
     padding: 0;
     display: flex;
-    display: none;
   }
 }
 
@@ -903,8 +902,7 @@ a {
 }
 @media (min-width: 1200px) {
   .team__item {
-    width: 1600px;
-    margin-right: 30px;
+    width: 270px;
   }
   .team__item:nth-child(4n) {
     margin-right: 0px;
