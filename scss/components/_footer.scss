@@ -44,6 +44,7 @@ margin-left: 76px;
 }
 
 @media (min-width: 1200px){
+    width: 231px; 
 flex-grow: 1;}
 }
 
@@ -53,8 +54,11 @@ display: flex;
 align-items: baseline;
 margin-right: auto;
 margin-left: auto;
-}}
-
+}
+@media (min-width: 1200px) {
+display: flex;
+}
+}
     
 .footer{
 @media (min-width: 480px) {
@@ -159,6 +163,7 @@ font-style: normal;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;}
+
 @media (min-width: 1200px){
 text-decoration: none;
 color: var(--hero-text);

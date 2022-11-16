@@ -913,7 +913,6 @@ a {
   .team__pfoto {
     margin-left: auto;
     margin-right: auto;
-    width: 450px;
     padding-top: 30px;
     padding-bottom: 30px;
     text-align: center;
@@ -926,7 +925,6 @@ a {
   .team__pfoto {
     margin-left: auto;
     margin-right: auto;
-    width: 768px;
     padding-top: 30px;
     padding-bottom: 30px;
     text-align: center;
@@ -937,7 +935,6 @@ a {
 }
 @media (min-width: 1200px) {
   .team__pfoto {
-    width: 1600px;
     padding-top: 30px;
     padding-bottom: 30px;
     text-align: center;
@@ -951,7 +948,6 @@ a {
   .team__title {
     margin-left: auto;
     margin-right: auto;
-    width: 450px;
     text-align: center;
     font-weight: 500;
     font-size: 16px;
@@ -964,7 +960,6 @@ a {
   .team__title {
     margin-left: auto;
     margin-right: auto;
-    width: 768px;
     text-align: center;
     font-weight: 500;
     font-size: 16px;
@@ -975,7 +970,6 @@ a {
 }
 @media (min-width: 1200px) {
   .team__title {
-    width: 1200px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
@@ -988,7 +982,6 @@ a {
   .team__text {
     margin-left: auto;
     margin-right: auto;
-    width: 450px;
     text-align: center;
     color: var(--secondary-text-color);
     font-size: 16px;
@@ -1001,7 +994,6 @@ a {
   .team__text {
     margin-left: auto;
     margin-right: auto;
-    width: 768px;
     text-align: center;
     color: var(--secondary-text-color);
     font-size: 16px;
@@ -1012,7 +1004,6 @@ a {
 }
 @media (min-width: 1200px) {
   .team__text {
-    width: 1200px;
     color: var(--secondary-text-color);
     font-size: 16px;
     line-height: 1.18;
@@ -1248,6 +1239,7 @@ a {
 }
 @media (min-width: 1200px) {
   .container__box-one {
+    width: 231px;
     flex-grow: 1;
   }
 }
@@ -1258,6 +1250,11 @@ a {
     align-items: baseline;
     margin-right: auto;
     margin-left: auto;
+  }
+}
+@media (min-width: 1200px) {
+  .container__tablet-box {
+    display: flex;
   }
 }
 
@@ -1695,7 +1692,6 @@ a {
 @media (min-width: 1200px) {
   .foot-email {
     justify-content: end;
-    margin-left: 93px;
   }
 }
 
