@@ -486,6 +486,7 @@ a {
   .hero__title {
     color: var(--hero-text);
     width: 696px;
+    padding-top: 0;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
