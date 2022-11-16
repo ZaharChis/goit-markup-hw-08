@@ -1533,10 +1533,12 @@ a {
     justify-content: center;
     width: 206px;
     height: 80px;
-    margin-left: 70px;
   }
 }
 
+.foot-soshial__text {
+  text-align: left;
+}
 @media (min-width: 480px) {
   .foot-soshial__text {
     box-sizing: border-box;
@@ -1701,6 +1703,8 @@ a {
 @media (min-width: 1200px) {
   .foot-email {
     justify-content: end;
+    padding-left: 93px;
+    padding-right: 0;
   }
 }
 
