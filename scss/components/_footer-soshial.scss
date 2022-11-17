@@ -4,10 +4,10 @@ height: 80px;
 text-align: center;
 
 @media (min-width: 1200px){
-align-items: center;
-justify-content: center;
-width: 206px; 
-height: 80px;
+    align-items: center;
+    justify-content: center;
+    width: 206px; 
+    margin-left: 70px;
 }
 }
     
@@ -34,9 +34,7 @@ gap: 10px;
 justify-content: center;
 align-items: center;
 
-@media (min-width: 1200px){
-margin-top: 20px;
-}
+
 }
     
 .foot-soshial__item{

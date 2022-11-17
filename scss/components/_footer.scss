@@ -9,6 +9,9 @@ padding: 60px 0;
 
 @media (min-width: 1200px){
 width: 1600px;
+
+background-color:var(--hero-becgr-color);
+padding: 60px 0;
 }}
     
     
@@ -17,8 +20,8 @@ align-items: baseline;
 text-align: center;
 
 @media (min-width: 1200px){
-width: 1200px;
-margin-left: 0;
+    display: flex;
+    align-items: baseline;
 }
 }
 
@@ -29,11 +32,10 @@ margin-left: 76px;
 }
 
 @media (min-width: 1200px){
-margin-right: 70px;
-margin-left: 215px;
-width: 231px; 
+flex-grow: 1;
 text-align: left;
-flex-grow: 1;}
+margin-left: 0;
+}
 }
 
 .container__tablet-box{
@@ -45,6 +47,8 @@ margin-left: auto;
 }
 @media (min-width: 1200px) {
 display: flex;
+margin-right: 0;
+margin-left: 0;
 }
 }
     
