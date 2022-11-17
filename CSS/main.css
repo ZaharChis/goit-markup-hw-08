@@ -313,9 +313,17 @@ a {
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../imeges/hero.jpg);
   background-repeat: no-repeat;
   background-position: center;
+  max-width: 1600px;
   background-size: auto;
   background-color: var(--hero-becgr-color);
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (min-width: 1200px) {
+  .hero {
+    height: 600px;
+  }
 }
 
 .hero__title {
@@ -327,6 +335,11 @@ a {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   padding-top: 118px;
+}
+@media (min-width: 1200px) {
+  .hero__title {
+    padding-top: 200px;
+  }
 }
 
 .hero__button {
