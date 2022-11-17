@@ -1,4 +1,10 @@
 .page-header{
+border-bottom: solid var(--border-bottom) 1px;
+margin-left: auto;
+margin-right: auto;
+padding-right: 15px;
+padding-right: 15px;
+
 @media (min-width: 480px) {
 width: 480px;
 border-bottom: solid var(--border-bottom) 1px;
@@ -30,12 +36,13 @@ text-align: center;
 .navigation {
 display: flex;
 align-items: center;
+justify-content: space-between;
 
 }
 
 .navigation-mob-menu{
 
-margin-left: 276px;
+margin-left: 180px;
 margin-right: 10px;
 margin-top: 10px;
 margin-bottom: 10px;
@@ -51,7 +58,7 @@ padding: 0;
 margin-left: auto;
 margin-right: auto;
 display: flex;
-@media (min-width: 480px) {
+@media (min-width: 320px) {
 display: none;
 }
 
@@ -156,7 +163,7 @@ margin-left: auto;
 padding: 0;
 display: flex;
 
-@media (min-width: 480px) {
+@media (min-width: 320px) {
 display: none;
 }
 
