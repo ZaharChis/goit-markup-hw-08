@@ -170,7 +170,7 @@ a {
   margin-right: auto;
   display: flex;
 }
-@media (min-width: 320px) {
+@media (min-width: 50px) {
   .site-nav {
     display: none;
   }
@@ -285,7 +285,7 @@ a {
   padding: 0;
   display: flex;
 }
-@media (min-width: 320px) {
+@media (min-width: 50px) {
   .auth {
     display: none;
   }
@@ -882,7 +882,7 @@ a {
   padding: 0;
   display: flex;
 }
-@media (min-width: 480px) {
+@media (min-width: 50px) {
   .work {
     display: none;
   }
