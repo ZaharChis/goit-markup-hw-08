@@ -5,56 +5,15 @@ background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)),
 url(../imeges/hero.jpg);
 background-repeat: no-repeat;
 background-position: center;
-height: 400px;
 width: 480px;
 background-size: auto;
 background-color: var(--hero-becgr-color);
 text-align: center;
 
-@media (min-width: 480px) {
-background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)),
-url(../imeges/hero.jpg);
-background-repeat: no-repeat;
-background-position: center;
-height: 400px;
-width: 480px;
-background-size: auto;
-background-color: var(--hero-becgr-color);
-text-align: center;
-}
-    
-@media (min-width: 768px) {
-background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)),
-url(../imeges/hero.jpg);
-background-repeat: no-repeat;
-background-position: center;
-height: 400px;
-width: 768px;
-background-size: auto;
-background-color: var(--hero-becgr-color);
-text-align: center;
-}
-
-@media (min-width: 1200px){
-    width: 1600px;
-margin-left: auto;
-margin-right: auto;
-background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)),
-url(../imeges/hero.jpg);
-background-repeat: no-repeat;
-background-position: center;
-height: 600px;
-max-width: 1600px;
-background-size: auto;
-background-color: var(--hero-becgr-color);
-text-align: center;
-padding-top: 200px;
-padding-bottom: 200px;}
 }
     
 .hero__title{
 color: var(--hero-text);
-width: 380px;
 font-weight: 900;
 font-size: 26px;
 line-height: 1.61;
@@ -64,48 +23,6 @@ text-transform: uppercase;
 margin-left: auto;
 margin-right: auto;
 padding-top: 118px;
-
-@media (min-width: 480px) {
-color: var(--hero-text);
-width: 380px;
-font-weight: 900;
-font-size: 26px;
-line-height: 1.61;
-text-align: center;
-letter-spacing: 0.06em;
-text-transform: uppercase;
-margin-left: auto;
-margin-right: auto;
-padding-top: 118px;
-}
-
-@media (min-width: 768px) {
-color: var(--hero-text);
-width: 380px;
-font-weight: 900;
-font-size: 26px;
-line-height: 1.61;
-text-align: center;
-letter-spacing: 0.06em;
-text-transform: uppercase;
-margin-left: auto;
-margin-right: auto;
-padding-top: 118px;
-}
-
-@media (min-width: 1200px){
-color: var(--hero-text);
-width: 696px;
-padding-top: 0;
-font-weight: 900;
-font-size: 44px;
-line-height: 1.36;
-text-align: center;
-letter-spacing: 0.06em;
-text-transform: uppercase;
-margin-bottom: 30px;
-margin-left: auto;
-margin-right: auto;}
 } 
 
    

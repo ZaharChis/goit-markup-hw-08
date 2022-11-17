@@ -7,48 +7,19 @@ background-color:var(--hero-becgr-color);
 padding: 60px 0;
 
 
-@media (min-width: 480px) {
-margin-left: auto;
-margin-right: auto;
-padding-right: 15px;
-padding-right: 15px;
-background-color:var(--hero-becgr-color);
-padding: 60px 0;}
-    
-@media (min-width: 768px) {
-margin-left: auto;
-margin-right: auto;
-padding-right: 15px;
-padding-right: 15px;
-background-color:var(--hero-becgr-color);
-padding: 60px 0;}
-
 @media (min-width: 1200px){
-    width: 1600px;
-background-color:var(--hero-becgr-color);
-padding: 60px 0;}
-}
+width: 1600px;
+}}
     
     
 .container__footer-main--container{
 align-items: baseline;
 text-align: center;
 
-@media (min-width: 480px) {
-align-items: baseline;
-text-align: center;
-}
-
-@media (min-width: 768px) {
-align-items: baseline;
-text-align: center;
-}
-
 @media (min-width: 1200px){
 width: 1200px;
 margin-left: 0;
-display: flex;
-align-items: baseline;}
+}
 }
 
 .container__box-one{
@@ -81,21 +52,6 @@ display: flex;
 list-style-type: none;
 margin: 0;
 padding: 0;
-
-@media (min-width: 480px) {
-list-style-type: none;
-margin: 0;
-padding: 0; }
-
-@media (min-width: 768px) {
-list-style-type: none;
-margin: 0;
-padding: 0; }
-
-@media (min-width: 1200px){
-list-style-type: none;
-margin: 0;
-padding: 0;}
 }
     
 .footer__item {
@@ -112,75 +68,12 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 &:focus{   
 color:var(--accent-color);}    
 
-@media (min-width: 480px) {
-color: var(--foot-links-color);
-font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;
-margin-top: 9px;
-transition-property: color;
-transition-duration: 250ms;
-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    
-&:hover,
-&:focus{   
-color:var(--accent-color);}
-}
-
-@media (min-width: 768px) {
-color: var(--foot-links-color);
-font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;
-margin-top: 9px;
-transition-property: color;
-transition-duration: 250ms;
-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-        
-&:hover,
-&:focus{   
-color:var(--accent-color);}
-}
-
-@media (min-width: 1200px){
-color: var(--foot-links-color);
-font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;
-margin-top: 9px;
-transition-property: color;
-transition-duration: 250ms;
-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-
-&:hover,
-&:focus{   
-color:var(--accent-color);}
-}
-
 &:first-child{ 
 display: inline-block;
 color: var(--hero-text);
 font-style: normal;
 padding-top: 0px;
-
-@media (min-width: 480px) {
-display: inline-block;
-color: var(--hero-text);
-font-style: normal;
-padding-top: 0px;}
-
-@media (min-width: 768px) {
-display: inline-block;
-color: var(--hero-text);
-font-style: normal;
-padding-top: 0px;}
-
-@media (min-width: 1200px){
-display: inline-block;
-color: var(--hero-text);
-font-style: normal;
-padding-top: 0px;}}
-}
+}}
 
 .footer__link-map{
 text-decoration: none;
@@ -191,36 +84,6 @@ font-style: normal;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
-
-@media (min-width: 480px) {
-text-decoration: none;
-color: var(--hero-text);
-outline:none;
-font-family: 'Roboto';
-font-style: normal;
-font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;}
-
-@media (min-width: 768px) {
-text-decoration: none;
-color: var(--hero-text);
-outline:none;
-font-family: 'Roboto';
-font-style: normal;
-font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;}
-
-@media (min-width: 1200px){
-text-decoration: none;
-color: var(--hero-text);
-outline:none;
-font-family: 'Roboto';
-font-style: normal;
-font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;}
 }
     
 .footer__link {
@@ -231,29 +94,6 @@ font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
 
-@media (min-width: 480px) {
-text-decoration: none;
-color: var(--foot-links-color);
-font-style: normal;
-font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;}
-
-@media (min-width: 768px) {
-text-decoration: none;
-color: var(--foot-links-color);
-font-style: normal;
-font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;}
-
-@media (min-width: 1200px){
-text-decoration: none;
-color: var(--foot-links-color);
-font-style: normal;
-font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;}
 }
     
    

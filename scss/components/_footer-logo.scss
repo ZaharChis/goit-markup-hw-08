@@ -10,41 +10,6 @@ letter-spacing: 0.03em;
 display: inline-block;
 margin-bottom: 20px;
 
-@media (min-width: 480px) {
-text-decoration: none;
-color: var(--accent-color);
-outline:none;
-font-family: 'Raleway', sans-serif;
-font-weight: 700;
-font-size: 26px;
-line-height: 1.19;
-letter-spacing: 0.03em;
-display: inline-block;
-margin-bottom: 20px;  }
-
-@media (min-width: 768px) {
-text-decoration: none;
-color: var(--accent-color);
-outline:none;
-font-family: 'Raleway', sans-serif;
-font-weight: 700;
-font-size: 26px;
-line-height: 1.19;
-letter-spacing: 0.03em;
-display: inline-block;
-margin-bottom: 20px;  }
-
-@media (min-width: 1200px){
-text-decoration: none;
-color: var(--accent-color);
-outline:none;
-font-family: 'Raleway', sans-serif;
-font-weight: 700;
-font-size: 26px;
-line-height: 1.19;
-letter-spacing: 0.03em;
-display: inline-block;
-margin-bottom: 20px;  }
 }
     
 .logo__part-white{
@@ -59,41 +24,6 @@ line-height: 1.19;
 letter-spacing: 0.03em;
 display: inline-block;
 
-@media (min-width: 480px) {
-text-decoration: none;
-outline:none;
-color:var(--hero-text);
-font-family: 'Raleway', sans-serif;
-font-style: normal;
-font-weight: 700;
-font-size: 26px;
-line-height: 1.19;
-letter-spacing: 0.03em;
-display: inline-block;}
-
-@media (min-width: 768px) {
-text-decoration: none;
-outline:none;
-color:var(--hero-text);
-font-family: 'Raleway', sans-serif;
-font-style: normal;
-font-weight: 700;
-font-size: 26px;
-line-height: 1.19;
-letter-spacing: 0.03em;
-display: inline-block;}
-
-@media (min-width: 1200px){
-text-decoration: none;
-outline:none;
-color:var(--hero-text);
-font-family: 'Raleway', sans-serif;
-font-style: normal;
-font-weight: 700;
-font-size: 26px;
-line-height: 1.19;
-letter-spacing: 0.03em;
-display: inline-block;}
 }
 
 
