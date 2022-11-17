@@ -3,6 +3,12 @@ background-color: var(--backgr-second);
 }
     
 .team {
+margin-left: auto;
+margin-right: auto;
+list-style-type: none;
+margin: 0;
+padding: 0;
+
 @media (min-width: 480px) {
 width: 450px;
 margin-left: auto;
@@ -34,6 +40,9 @@ display: flex;
 }
 
 .team__item{
+margin-left: auto;
+margin-right: auto; 
+
 @media (min-width: 480px) {
 width: 450px;
 margin-left: auto;
@@ -58,10 +67,18 @@ margin-right: 0px;}
 }
     
 .team__pfoto{
+margin-left: auto;
+margin-right: auto;
+padding-top: 30px;
+padding-bottom: 30px;
+text-align: center;
+background-color: var(--hero-text);
+border-radius: 0px 0px 4px 4px;
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+
 @media (min-width: 480px){
 margin-left: auto;
 margin-right: auto;
-
 padding-top: 30px;
 padding-bottom: 30px;
 text-align: center;
@@ -94,10 +111,18 @@ box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0p
 }
     
 .team__title{
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.18;
+letter-spacing: 0.03em;
+margin-bottom: 10px;
+
 @media (min-width: 480px){
 margin-left: auto;
 margin-right: auto;
-
 text-align: center;
 font-weight: 500;
 font-size: 16px;
@@ -108,7 +133,6 @@ margin-bottom: 10px;}
 @media (min-width: 768px){
 margin-left: auto;
 margin-right: auto;
-
 text-align: center;
 font-weight: 500;
 font-size: 16px;
@@ -126,6 +150,9 @@ margin-bottom: 10px;}
 }
     
 .team__text{
+margin-left: auto;
+margin-right: auto;
+
 @media (min-width: 480px){
 margin-left: auto;
 margin-right: auto;
