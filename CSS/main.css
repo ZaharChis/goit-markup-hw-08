@@ -714,6 +714,7 @@ a {
     flex-grow: 1;
     text-align: left;
     margin-left: 0;
+    margin-right: 70px;
   }
 }
 
@@ -955,6 +956,12 @@ a {
   border-radius: 4px;
   display: flex;
   gap: 10px;
+}
+@media (min-width: 1200px) {
+  .foot-email__button {
+    margin-left: 12px;
+    margin-top: 0;
+  }
 }
 
 .button {
