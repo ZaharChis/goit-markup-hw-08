@@ -536,13 +536,16 @@ a {
   margin: 0;
   padding: 0;
 }
-@media (min-width: 1200px) {
+@media (min-width: 768px) {
   .team {
     display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
   }
 }
 
 .team__item {
+  width: calc((100% - 30px) / 2);
   margin-left: auto;
   margin-right: auto;
 }
