@@ -7,22 +7,21 @@
     flex-wrap: wrap;
 
     @media (min-width: 768px) {
-        flex-wrap: nowrap; 
-        margin-right: 96px;
-        margin-left: 96px ;
-        }
-        @media (min-width: 1200px) {
-           justify-content: center;
-           
-            
-            }
+    flex-wrap: nowrap; 
+    margin-right: 96px;
+    margin-left: 96px ;
+    }
 
+    @media (min-width: 1200px) {
+    justify-content: center; 
+    }
 }
     
     .button__item{
        
-
+        @media (max-width: 1199px){
     width: calc((100% - 16px) / 3);}
+}
    
     @media (min-width: 1200px) {
     &:last-child{
