@@ -666,14 +666,11 @@ a {
 @media (min-width: 768px) {
   .clients__item {
     width: calc((100% - 60px) / 3);
-    height: 92px;
   }
 }
 @media (min-width: 1200px) {
   .clients__item {
-    margin-right: 30px;
     list-style: none;
-    height: 92px;
   }
   .clients__item:last-child {
     margin-right: 0px;
@@ -1000,6 +997,12 @@ a {
     margin-left: 96px;
   }
 }
+@media (min-width: 768px) {
+  .button {
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
 
 .button__item {
   width: calc((100% - 16px) / 3);
@@ -1048,6 +1051,11 @@ a {
     margin-top: 14px;
   }
 }
+@media (min-width: 1200px) {
+  .portfolio {
+    margin-top: 34px;
+  }
+}
 
 .portfolio__item {
   border: 1px solid #EEEEEE;
@@ -1060,6 +1068,11 @@ a {
 @media (min-width: 768px) {
   .portfolio__item {
     width: calc((100% - 30px) / 2);
+  }
+}
+@media (min-width: 1200px) {
+  .portfolio__item {
+    width: calc((100% - 60px) / 3);
   }
 }
 
