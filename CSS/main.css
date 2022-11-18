@@ -987,17 +987,15 @@ a {
 
 .button {
   text-decoration: none;
-  justify-content: center;
+  justify-content: left;
   display: flex;
   list-style-type: none;
-  margin-bottom: 50px;
+  gap: 8px;
+  flex-wrap: wrap;
 }
 
 .button__item {
-  margin-right: 8px;
-}
-.button__item:last-child {
-  margin-right: 0px;
+  width: calc((100% - 16px) / 3);
 }
 
 .button__link {
@@ -1035,7 +1033,6 @@ a {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  display: none;
 }
 
 .portfolio__item {
