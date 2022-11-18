@@ -302,6 +302,11 @@ a {
   outline: none;
   margin-left: 15px;
 }
+@media (min-width: 768px) {
+  .logo {
+    margin-right: 87px;
+  }
+}
 
 .logo__part {
   text-decoration: none;
