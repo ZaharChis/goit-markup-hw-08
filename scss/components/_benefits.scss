@@ -59,6 +59,8 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 margin-bottom: 10px;
 
+@media (min-width: 768px){
+    text-align: left;}
 }
     
 .benefits__text{

@@ -448,6 +448,11 @@ a {
   text-transform: uppercase;
   margin-bottom: 10px;
 }
+@media (min-width: 768px) {
+  .benefits__title {
+    text-align: left;
+  }
+}
 
 .benefits__text {
   margin-right: auto;
