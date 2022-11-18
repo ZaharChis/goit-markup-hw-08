@@ -997,15 +997,21 @@ a {
     margin-left: 96px;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
   .button {
-    margin-right: auto;
-    margin-left: auto;
+    justify-content: center;
   }
 }
 
-.button__item {
-  width: calc((100% - 16px) / 3);
+@media (max-width: 1199px) {
+  .button__item {
+    width: calc((100% - 16px) / 3);
+  }
+}
+@media (min-width: 1200px) {
+  .button__item {
+    text-align: center;
+  }
 }
 
 .button__link {
@@ -1049,6 +1055,7 @@ a {
 @media (min-width: 768px) {
   .portfolio {
     margin-top: 14px;
+    justify-content: left;
   }
 }
 @media (min-width: 1200px) {
