@@ -221,6 +221,11 @@ a {
     display: list-item;
   }
 }
+@media (min-width: 1200px) {
+  .auth {
+    display: flex;
+  }
+}
 
 .auth__item {
   margin-right: 50px;
@@ -295,6 +300,7 @@ a {
   line-height: 1.19;
   letter-spacing: 0.03em;
   outline: none;
+  margin-left: 15px;
 }
 
 .logo__part {

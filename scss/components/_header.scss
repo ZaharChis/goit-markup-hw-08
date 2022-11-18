@@ -109,6 +109,9 @@ list-style-type: none;
 display: list-item;}
 margin-top: auto;
 margin-bottom: auto;
+
+@media (min-width: 1200px){
+display: flex;}
 }
     
 .auth__item {
