@@ -5,6 +5,12 @@
     list-style-type: none;
     gap: 8px;
     flex-wrap: wrap;
+
+    @media (min-width: 768px) {
+        flex-wrap: nowrap; 
+        margin-right: 96px;
+        margin-left: 96px ;
+        }
 }
     
     .button__item{

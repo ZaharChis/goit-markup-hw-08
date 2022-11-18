@@ -993,6 +993,13 @@ a {
   gap: 8px;
   flex-wrap: wrap;
 }
+@media (min-width: 768px) {
+  .button {
+    flex-wrap: nowrap;
+    margin-right: 96px;
+    margin-left: 96px;
+  }
+}
 
 .button__item {
   width: calc((100% - 16px) / 3);
@@ -1033,6 +1040,13 @@ a {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  margin-top: 40px;
+  gap: 30px;
+}
+@media (min-width: 768px) {
+  .portfolio {
+    margin-top: 14px;
+  }
 }
 
 .portfolio__item {
@@ -1041,15 +1055,12 @@ a {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  margin-right: 30px;
-  margin-bottom: 30px;
   border: transparent;
 }
-.portfolio__item:nth-child(3n) {
-  margin-right: 0px;
-}
-.portfolio__item:nth-last-child(-n+3) {
-  margin-bottom: 0px;
+@media (min-width: 768px) {
+  .portfolio__item {
+    width: calc((100% - 30px) / 2);
+  }
 }
 
 .portfolio__link {
