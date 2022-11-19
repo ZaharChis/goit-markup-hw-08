@@ -5,6 +5,7 @@
     list-style-type: none;
     gap: 8px;
     flex-wrap: wrap;
+    margin-top: 60px;
 
     @media (min-width: 768px) {
     flex-wrap: nowrap; 
@@ -13,6 +14,7 @@
     }
 
     @media (min-width: 1200px) {
+        
     justify-content: center; 
     }
 }
