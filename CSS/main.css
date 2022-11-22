@@ -66,10 +66,8 @@ img {
   }
 }
 
-@media (min-width: 480px) {
-  .section {
-    padding: 60px 0;
-  }
+.section {
+  padding: 60px 0;
 }
 @media (min-width: 1200px) {
   .section {
@@ -77,10 +75,8 @@ img {
   }
 }
 
-@media (min-width: 480px) {
-  .section__no-padding-top {
-    padding: 0 0;
-  }
+.section__no-padding-top {
+  padding: 0 0;
 }
 @media (min-width: 1200px) {
   .section__no-padding-top {
