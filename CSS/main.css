@@ -1033,7 +1033,6 @@ img {
   list-style-type: none;
   gap: 8px;
   flex-wrap: wrap;
-  margin-top: 60px;
 }
 @media (min-width: 768px) {
   .button {
@@ -1048,7 +1047,7 @@ img {
   }
 }
 
-@media (max-width: 1199px) {
+@media (max-width: 767px) {
   .button__item {
     width: calc((100% - 16px) / 3);
   }
