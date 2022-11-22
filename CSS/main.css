@@ -1444,6 +1444,7 @@ img {
 
 .mobile-menu {
   position: relative;
+  padding-top: 48px;
 }
 
 .mobile-menu__close-button {
