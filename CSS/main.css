@@ -987,7 +987,7 @@ img {
 }
 @media (min-width: 1200px) {
   .foot-email__window {
-    height: 50px;
+    width: 358px;
   }
 }
 .foot-email__window .foot-email__button-box {
