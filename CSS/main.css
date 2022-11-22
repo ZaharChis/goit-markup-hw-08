@@ -1032,7 +1032,9 @@ img {
   justify-content: left;
   display: flex;
   list-style-type: none;
-  gap: 8px;
+  row-gap: 15px;
+  -moz-column-gap: 8px;
+       column-gap: 8px;
   flex-wrap: wrap;
 }
 @media (min-width: 768px) {
@@ -1048,11 +1050,6 @@ img {
   }
 }
 
-@media (max-width: 767px) {
-  .button__item {
-    width: calc((100% - 16px) / 3);
-  }
-}
 @media (min-width: 1200px) {
   .button__item {
     text-align: center;
