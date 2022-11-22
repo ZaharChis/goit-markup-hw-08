@@ -1111,7 +1111,6 @@ img {
 
 .portfolio__item {
   border: 1px solid #EEEEEE;
-  display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
