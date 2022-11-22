@@ -770,6 +770,7 @@ img {
   .container__box-one {
     margin-right: 165px;
     margin-left: 76px;
+    text-align: left;
   }
 }
 @media (min-width: 1200px) {
@@ -867,7 +868,6 @@ img {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  display: inline-block;
 }
 
 .foot-soshial {
