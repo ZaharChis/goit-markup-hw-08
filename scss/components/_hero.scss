@@ -1,7 +1,7 @@
 .hero{
 height: 400px;
 background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)),
-url(../imeges/hero.jpg);
+url(../imeges/heromob1x.jpg);
 background-repeat: no-repeat;
 background-position: center;
 max-width: 1600px;
@@ -11,9 +11,45 @@ text-align: center;
 margin-left: auto;
 margin-right: auto;
 
+@media (min-resolution: 2dppx){
+.hero {background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)),
+url(../imeges/heromob2x.jpg);
+}}
+
+@media (min-resolution: 3dppx){
+.hero {background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)),
+url(../imeges/heromob3x.jpg);
+}}
+
+@media (min-width: 768px){
+background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)),
+url(../imeges/herotabl1x.jpg);}
+
+@media (min-resolution: 2dppx){
+.hero {background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)),
+url(../imeges/herotabl2x.jpg);
+}}
+    
+@media (min-resolution: 3dppx){
+.hero {background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)),
+url(../imeges/herotabl3x.jpg);
+}}
+
 @media (min-width: 1200px){
 height: 600px;
+background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)),
+url(../imeges/herodesk1x.jpg);
 }
+
+@media (min-resolution: 2dppx){
+.hero {background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)),
+url(../imeges/herodesk2x.jpg);
+}}
+        
+@media (min-resolution: 3dppx){
+.hero {background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)),
+url(../imeges/herodesk3x.jpg);
+}}
 }
     
 .hero__title{
