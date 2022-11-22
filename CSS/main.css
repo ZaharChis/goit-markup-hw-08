@@ -1442,10 +1442,6 @@ img {
   margin-top: 30px;
 }
 
-.mobile-menu {
-  position: fixed;
-}
-
 .mobile-menu__navigation {
   margin-left: 40px;
   text-align: left;
