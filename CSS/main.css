@@ -595,9 +595,13 @@ img {
 }
 
 .team__item {
-  width: calc((100% - 30px) / 2);
   margin-left: auto;
   margin-right: auto;
+}
+@media (min-width: 768px) {
+  .team__item {
+    width: calc((100% - 30px) / 2);
+  }
 }
 
 .team__pfoto {
