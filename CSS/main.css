@@ -1449,8 +1449,12 @@ img {
   width: 100vw;
   height: 100vh;
   padding: 32px;
-  z-index: 999;
   background-color: var(--hero-text);
+}
+@media (min-width: 768px) {
+  .mobile-menu {
+    display: none;
+  }
 }
 
 .mobile-menu__close-button {
