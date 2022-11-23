@@ -1464,6 +1464,9 @@ img {
   right: 16px;
   border: 0ch;
 }
+.mobile-menu__close-button:hover, .mobile-menu__close-button:focus {
+  color: var(--accent-color);
+}
 
 .mobile-menu__navigation {
   margin-left: 40px;
