@@ -124,9 +124,9 @@ img {
 }
 
 .navigation-mob-menu {
-  margin-top: 10px;
-  margin-bottom: 10px;
+  border: 0ch;
   outline: none;
+  background: transparent;
 }
 @media (min-width: 767px) {
   .navigation-mob-menu {
@@ -1458,9 +1458,11 @@ img {
 }
 
 .mobile-menu__close-button {
+  background: transparent;
   position: absolute;
   top: 16px;
   right: 16px;
+  border: 0ch;
 }
 
 .mobile-menu__navigation {
