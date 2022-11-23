@@ -25,7 +25,8 @@
           <a href="./index.html" class="logo"
             >Web<span class="logo__part">Studio</span></a
           >
-          <button class="navigation-mob-menu" type="button" ><svg width="40" height="40">
+          <button class="navigation-mob-menu js-open-menu"  aria-expanded="false"
+          aria-controls="mobile-menu" type="button" ><svg width="40" height="40">
             <use href="./imeges/symbol-defs.svg#icon-menu_40px"></use>
           </svg></button>
 
@@ -403,9 +404,9 @@
 <!-- MOBIL MENU -->
 
 
-<div class="mobile-menu js-menu-container" >
+<div class="mobile-menu js-menu-container" id="mobile-menu" >
   <div class="container">
-    <button type="button" class="mobile-menu__close-button" >
+    <button type="button" class="mobile-menu__close-button js-close-menu" >
       <svg class="cross" width="11" height="11" class="svg-close"><use href="./imeges/symbol-defs.svg#icon-close_24px"></use></svg>
 
     </button>
