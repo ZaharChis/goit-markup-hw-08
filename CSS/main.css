@@ -1450,11 +1450,17 @@ img {
   height: 100vh;
   padding: 32px;
   background-color: var(--hero-text);
+  transform: translateX(100%);
+  transition: transform 250ms ease-in-out;
 }
 @media (min-width: 768px) {
   .mobile-menu {
     display: none;
   }
+}
+
+.mobile-menu.is-open {
+  transform: translateX(0);
 }
 
 .mobile-menu__close-button {
