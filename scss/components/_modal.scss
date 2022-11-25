@@ -161,6 +161,7 @@
     .agree{
     margin-top: 20px;
     text-align: center;
+    white-space: nowrap;
     }
     
     .agree__check{
@@ -174,14 +175,16 @@
     }
     
     .agree__rules{
-    position: relative;
-    font-family: 'Roboto';
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.7;
-    letter-spacing: 0.03em;
-    color: var(--secondary-text-color);
-    padding-left: 28px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 1.16;
+        letter-spacing: 0.03em;
+        color: var(--secondary-text-color);
+
+        @media (min-width: 1200px){ 
+        }
     
     
     &::before {
