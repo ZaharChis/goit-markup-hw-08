@@ -8,10 +8,7 @@ padding: 60px 0;
 
 
 @media (min-width: 1200px){
-width: 1600px;
 
-background-color:var(--hero-becgr-color);
-padding: 60px 0;
 }}
     
     
@@ -28,17 +25,14 @@ text-align: center;
 .container__box-one{
 margin-bottom: 60px;   
 
-@media (min-width: 768px) {
-margin-right: 165px;
-margin-left: 76px;
-text-align: left;
-}
+
 
 @media (min-width: 1200px){
 flex-grow: 1;
 text-align: left;
 margin-left: 0;
-margin-right: 70px;
+
+margin-bottom: 0;
 }
 }
 
@@ -47,9 +41,11 @@ margin-bottom: 60px;
 
 @media (min-width: 768px) {
 display: flex;
+justify-content: space-around;
 align-items: baseline;
 margin-right: auto;
 margin-left: auto;
+margin-bottom: 0;
 }
 @media (min-width: 1200px) {
 display: flex;

@@ -36,7 +36,7 @@ url(../imeges/herotabl3x.jpg);
 }}
 
 @media (min-width: 1200px){
-height: 600px;
+padding: 200px 0;
 background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)),
 url(../imeges/herodesk1x.jpg);
 }
@@ -74,7 +74,7 @@ margin-right: auto;
     }
 
 @media (min-width: 1200px){
-    padding-top: 200px;
+    
     font-size: 44px;
     line-height: 1.36;
     max-width: 696px;
