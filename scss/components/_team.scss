@@ -22,6 +22,9 @@ flex-wrap: wrap;}
 
 margin-left: auto;
 margin-right: auto; 
+margin-bottom: 30px;
+&:last-child{
+margin-bottom: 0;}
    
 @media (min-width: 768px){
     width: calc((100% - 30px) / 2);

@@ -1,11 +1,11 @@
 .hero{
-height: 400px;
+padding: 188px 0;
 background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)),
 url(../imeges/heromob1x.jpg);
 background-repeat: no-repeat;
 background-position: center;
 max-width: 1600px;
-background-size: auto;
+background-size: cover;
 background-color: var(--hero-becgr-color);
 text-align: center;
 margin-left: auto;
@@ -60,8 +60,9 @@ line-height: 1.61;
 text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
-padding-top: 118px;
 max-width: 360px;
+margin-left: auto;
+margin-right: auto;
 
 @media (min-width: 768px){
   

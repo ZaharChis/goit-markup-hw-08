@@ -26,6 +26,8 @@ text-align: center;
 }
 
 .container__box-one{
+margin-bottom: 60px;   
+
 @media (min-width: 768px) {
 margin-right: 165px;
 margin-left: 76px;
@@ -41,6 +43,8 @@ margin-right: 70px;
 }
 
 .container__tablet-box{
+margin-bottom: 60px;
+
 @media (min-width: 768px) {
 display: flex;
 align-items: baseline;
