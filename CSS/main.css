@@ -1281,8 +1281,12 @@ img {
   display: block;
   margin-top: 12px;
   background: var(--hero-text);
-  margin-left: 40px;
-  margin-right: 40px;
+}
+@media (min-width: 1200px) {
+  .modal__contacts {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
 }
 
 .modal__box {
