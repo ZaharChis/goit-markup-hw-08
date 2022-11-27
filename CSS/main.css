@@ -943,9 +943,6 @@ img {
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.footer__item:hover, .footer__item:focus {
-  color: var(--accent-color);
-}
 .footer__item:first-child {
   display: inline-block;
   color: var(--hero-text);
