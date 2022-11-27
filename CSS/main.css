@@ -1078,10 +1078,8 @@ img {
   background-color: var(--accent-color);
 }
 
-@media (min-width: 678px) {
-  .foot-email {
-    margin-top: 60px;
-  }
+.foot-email {
+  margin-top: 60px;
 }
 @media (min-width: 1200px) {
   .foot-email {
