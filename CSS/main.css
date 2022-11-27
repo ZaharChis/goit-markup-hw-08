@@ -101,15 +101,11 @@ img {
 
 .page-header {
   border-bottom: solid var(--border-bottom) 1px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-right: 15px;
-  padding-right: 15px;
 }
 .page-header .page-header__container {
   height: 60px;
   align-items: center;
-  padding: 16px 0;
+  padding: 16px 15px;
 }
 @media (min-width: 768px) {
   .page-header .page-header__container {
@@ -321,7 +317,7 @@ img {
 }
 
 .hero {
-  padding: 188px 0;
+  padding: 118px 0;
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../imeges/heromob1x.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -784,9 +780,6 @@ img {
   }
 }
 
-.container__tablet-box {
-  margin-bottom: 60px;
-}
 @media (min-width: 768px) {
   .container__tablet-box {
     display: flex;
