@@ -1799,7 +1799,7 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-right: 20px;
+  margin-right: auto;
   margin-bottom: 48px;
 }
 
