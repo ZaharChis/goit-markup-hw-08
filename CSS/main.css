@@ -996,6 +996,7 @@ img {
 
 .foot-soshial {
   text-align: center;
+  margin-top: 60px;
 }
 @media (min-width: 1200px) {
   .foot-soshial {
@@ -1077,6 +1078,11 @@ img {
   background-color: var(--accent-color);
 }
 
+@media (min-width: 678px) {
+  .foot-email {
+    margin-top: 60px;
+  }
+}
 @media (min-width: 1200px) {
   .foot-email {
     margin-left: auto;
